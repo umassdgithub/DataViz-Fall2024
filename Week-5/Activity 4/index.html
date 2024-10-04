@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiline Chart!</title>
+    <style>
+        /* color coding
+        https://colorbrewer2.org/index.html?type=testtype&scheme=TestMap&n=3#type=diverging&scheme=BrBG&n=3
+         */
+        .title {
+            font-size: x-large;
+            font-family: sans-serif;
+            margin: 50px;
+        }
+        .clsTemp {
+            stroke: #5ab4ac;
+            stroke-width: 4px;
+            fill: none;
+        }
+        .clsCO2 {
+            stroke: #feb24c;
+            stroke-width: 4px;
+            fill: none;
+        }
+        .tick {
+            font-size: 14pt;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .legend {
+            font-family: sans-serif;
+            font-size: 12pt;
+        }
+    </style>
+    <script src="./lib/d3.js"></script>
+</head>
+<body>
+<div class="container">
+</div>
+<script>
+
+    // Load CSV data and generate the line chart
+    d3.csv("./data/dt.csv", d => ({
+            date: new Date(d['date']),
+            CO2: Number(d['CO2 (ppm)']),
+            Temperature: Number(d['GlobalTemperature'])
+        })
+    ).then(generateLineChart);
+
+    function generateLineChart(data) {
+        const width = 1000, height = 800;
+        const margin = {top: 70, right: 70, bottom: 70, left: 70};
+        const container = d3.select(".container");
+        const title = container.append("div")
+            .attr("class", "title")
+            .text("Global Temperature Anomaly vs CO2 Concentration");
+
+        const svgLine = container
+            .append("svg")
+            .attr("viewBox", `0 0 ${width} ${height}`)
+            .attr("width", "50vw")
+            .attr("height", "40vw");
+
+        // Create scales for the axes
+        const yCo2Scale = d3.scaleLinear()
+            .domain(d3.extent(data, d => d['CO2']))
+            .range([height - margin.bottom, margin.top]);
+
+        const yTemperatureScale = d3.scaleLinear()
+            .domain(d3.extent(data, d => d['Temperature']))
+            .range([height - margin.bottom, margin.top]);
+
+
+        // Missing (1): xScale function
+        //20 points
+        const xYearScale = d3.scaleTime()
+
+
+        // Missing (2) Define line generators for temperature and CO2
+        // (20 points)
+
+        //    .y(d => yTemperatureScale(d['Temperature']))
+        //    .curve(d3.curveBasis);
+
+
+        //    .y(d => yCo2Scale(d['CO2']))
+       //     .curve(d3.curveBasis);
+
+        const chart = svgLine.append("g").attr("class", "chart");
+
+        // Missing (3) Append paths for temperature and CO2 lines
+        // (20 points)
+        chart.append("path").attr("class", "clsTemp").attr("d", //....
+        chart.append("path").attr("class", "clsCO2").attr("d", //lineCO2
+
+        // Missing (4) Add the Right Y axis and the xAxis
+        // 20 points
+        svgLine.append("g").attr("class", "yLeft").attr("transform", `translate(${margin.left}, ${0})`).call(d3.axisLeft(yTemperatureScale));
+        //......call(d3.axisRight(yCo2Scale));
+        //.......call(d3.axisBottom(xYearScale));
+
+        const legend = svgLine.append("g")
+            .attr("class", "legend")
+            .attr("transform", `translate(${margin.left * 2}, ${margin.top * 2})`);
+
+        // Append legend for temperature
+        legend.append("rect")
+            .attr("width", "30")
+            .attr("height", "6")
+            .attr("fill", "#5ab4ac");
+        legend.append("text")
+            .attr("dx", 35)
+            .attr("dy", 9)
+            .text("Global temperature anomaly (C)");
+
+        // Missing (5) CO2 legend
+        // (20 points)
+
+    }
+
+</script>
+</body>
+</html>

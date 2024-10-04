@@ -56,7 +56,10 @@
 
 
     const stackGroups= groups.selectAll('.secondOrderValues') // since each data item is an array, we can bind each array to the newly added group element
-       .data(d=>d)
+       .data(d=> {
+           console.log(d)
+          return d
+       })
        .enter()
        .append('g')
 
