@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <title>Distributions</title>
   <script src="../../lib/d3.js"></script>
+    <style>
+        #container{
+            display:flex;
+            justify-content: center;
+        }
+        div{
+            margin:10px;
+        }
+    </style>
 </head>
 <body>
 <div>
 <button id="generator">Generate Strongly Connected Random Network</button>
 </div>
 <br>
+<div id="container">
+    <div>
+        <div>Nodes</div>
+        <textarea id="textAreaNodes" cols="40" rows="30" id="nodes"></textarea>
+    </div>
 <div>
-<textarea id="textAreaNodes" cols="40" rows="30"></textarea>
-<textarea id="textAreaLinks" cols="40" rows="30"></textarea>
+    <div>Links</div>
+    <textarea id="textAreaLinks" cols="40" rows="30" id="links"></textarea>
 </div>
+    </div>
 <script>
 
  function makeRandomNetwork() {
