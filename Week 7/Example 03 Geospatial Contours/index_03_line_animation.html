@@ -97,11 +97,16 @@
             let m= 192, n= 121;
 
             const path = d3.geoPath();
+
             let values_T= [];
+
             data.forEach(function (d) {
                 values_T.push(+d[0])
             });
+
+
             const extents = d3.extent(values_T);
+
             let contours = d3.contours()
                 .size([m, n])
                 .thresholds(d3.range(min_temp,max_temp,6)) // we know the min max for all days of the year is -88 & +56
@@ -169,6 +174,7 @@
     let frameNubmer = 0;
     function frame(){
         d3.select("#time").text(dates_2018[frameNubmer]);
+
         if(frameNubmer>=timeSeries.length-1){
             frameNubmer=0
         }
