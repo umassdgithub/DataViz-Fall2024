@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Style Tween</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body{
+            font-family: sans-serif;
+            font-size: larger;
+        }
+        circle{
+            fill-opacity: .2;
+        }
+    </style>
+</head>
+<body>
+<svg width="100vw" height="100vh">
+</svg>
+
+<script>
+
+    let data = d3.map(d3.range(0,1000),function (d) {
+        return {"cx": d3.randomNormal(300,70)() ,"cy":d3.randomNormal(300,70)() ,"r": d3.randomUniform(5,10)()}
+    });
+
+    // The data is binded to the elements
+    const circles = d3.select('svg')
+        .selectAll('circles')
+        .data(data)
+        .enter()
+        .append('circle')       // A circle element is added for each data point
+        .attr("cx",d=>d.cx)     // the initial x, y and r value for the points are set
+        .attr("cy",d=>d.cy)
+        .attr("r", d=>d.r)
+        .attr('fill','steelblue')
+
+    // In this section the transition for the elements are added
+    circles.transition()
+        .duration(2500) // duration of the transition is 2500 ms
+        .delay((_,i)=>i + d3.randomUniform()()*(2000)) // each one of the elements get a delay based on the index of the element
+        .on("start", function repeat() {
+            d3.active(this)
+                .attr("cx", d3.randomNormal(300,70)())
+                .attr("cy", d3.randomNormal(300,70)())
+                .attr("fill","orange")
+                .transition()
+                .attr("cx", d3.randomNormal(300,70)())
+                .attr("cy", d3.randomNormal(300,70)())
+                .attr("fill","steelblue")
+                .transition()
+                .on("start", repeat);});
+</script>
+
+</body>
+</html>
