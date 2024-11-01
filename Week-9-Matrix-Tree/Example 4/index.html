@@ -15,7 +15,11 @@
 d3.json("../data/us_population.json").then(function (Data) {
 
     let dom = document.getElementById("container"); // select container
+
+
     let treeMap = echarts.init(dom); // initiate echarts object
+
+
     treeMap.setOption({             // define type of visualization
         series: [
             {

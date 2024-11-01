@@ -142,6 +142,8 @@
             .paddingOuter(0);
         // apply tree map to hierarchical data
         treemapLayout(hier_root);
+        //treemapLayout.tile(d3.treemapSliceDice)
+        treemapLayout.tile(d3.treemapDice)
         // add groups to svg
         let nodes = svg
             .selectAll('g')
