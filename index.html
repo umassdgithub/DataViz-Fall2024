@@ -8,10 +8,8 @@
     <title>Massachusetts Geospatial Analysis</title>
 
     <!-- Link D3.js and TopoJSON libraries -->
-    <!script src="./libs/d3.js"></script>
-    <!script src="./libs/d3jstopojson.v1.js"></script>
-    <script src="./Week\ 7/Major-Assignment-2/data/libs/d3.js"></script>
-    <script src="./Week\ 7/Major-Assignment-2/data/libs/d3jstopojson.v1.js"></script>
+    <script src="./libs/d3.js"></script>
+    <script src="./libs/d3jstopojson.v1.js"></script>
 
 
 
@@ -117,10 +115,10 @@
         const width = 600, height = 400;
 
         // Load data files for Map A and B
-        //const MA_counties = "./data/towns.topojson";
-        //const gini_index = "./data/gini_index.csv";
-	const MA_counties = "./Week\ 7/Major-Assignment-2/data/towns.topojson";
-	const gini_index = "./Week\ 7/Major-Assignment-2/data/gini_index.csv";
+        const MA_counties = "./data/towns.topojson";
+        const gini_index = "./data/gini_index.csv";
+	//const MA_counties = "./Week\ 7/Major-Assignment-2/data/towns.topojson";
+	//const gini_index = "./Week\ 7/Major-Assignment-2/data/gini_index.csv";
 
         Promise.all([
             d3.json(MA_counties),
@@ -197,10 +195,10 @@
             }
 
             // Load data files for Map C
-            //const countiesGeoJSON = "./data/ma_counties_with_gini.geojson";
-            //const townsGeoJSON = "./data/towns.geojson";
-	    const countiesGeoJSON = "./Week\ 7/Major-Assignment-2/data/ma_counties_with_gini.geojson";
-	    const townsGeoJSON = "./Week\ 7/Major-Assignment-2/data/towns.geojson";
+            const countiesGeoJSON = "./data/ma_counties_with_gini.geojson";
+            const townsGeoJSON = "./data/towns.geojson";
+	    //const countiesGeoJSON = "./Week\ 7/Major-Assignment-2/data/ma_counties_with_gini.geojson";
+	    //const townsGeoJSON = "./Week\ 7/Major-Assignment-2/data/towns.geojson";
 
             Promise.all([
                 d3.json(countiesGeoJSON),
