@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LineUp Visualization</title>
+    <script src="libs/d3.js"></script>
+</head>
+<body>
+<h1>Sorting Visualization Example</h1>
+
+    <div>
+        <label for="sortOptions">Sort by:</label>
+        <select id="sortOptions">
+            <option value="name">Product Name</option>
+            <option value="sum">Sum of Sales, Ratings, and Stock</option>
+            <option value="sales">Sales</option>
+            <option value="ratings">Ratings</option>
+            <option value="stock">Stock</option>
+        </select>
+    </div>
+<div id="chart"></div>
+<script>
+    // Sample Data
+    let data = [
+        { name: 'Product A', sales: 55, ratings: 80, stock: 20 },
+        { name: 'Product B', sales: 70, ratings: 60, stock: 30 },
+        { name: 'Product C', sales: 25, ratings: 90, stock: 50 },
+        { name: 'Product D', sales: 85, ratings: 30, stock: 40 },
+        { name: 'Product E', sales: 60, ratings: 75, stock: 95 },
+        { name: 'Product F', sales: 90, ratings: 55, stock: 10 },
+        { name: 'Product G', sales: 45, ratings: 65, stock: 80 },
+        { name: 'Product H', sales: 30, ratings: 85, stock: 70 },
+        { name: 'Product I', sales: 40, ratings: 95, stock: 55 },
+    ];
+
+    // Set dimensions and margins for the graph
+    const margin = { top: 20, right: 50, bottom: 30, left: 40 },
+        width = 800 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
+
+    // Append the SVG object to the body of the page
+    const svg = d3.select("#chart")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    // Define the scales
+    const x = d3.scaleBand()
+        .range([0, width])
+        .domain(data.map(d => d.name))
+        .padding(0.1);
+
+    const y = d3.scaleLinear()
+        .range([height, 0])
+        .domain([0, d3.max(data, d => d.sales + d.ratings + d.stock)]);
+
+    // Function to update the chart with transitions
+    function updateChart(data) {
+        // Update x scale based on sorted data
+        x.domain(data.map(d => d.name));
+
+        // Update axes
+        svg.selectAll(".axis").remove();
+        svg.append("g")
+            .attr("class", "axis")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(x));
+
+        svg.append("g")
+            .attr("class", "axis")
+            .call(d3.axisLeft(y));
+
+        // Create stacked data
+        const keys = ['sales', 'ratings', 'stock'];
+        const stack = d3.stack()
+            .keys(keys)(data);
+
+        // Select the layers
+        const layer = svg.selectAll(".layer")
+            .data(stack);
+
+        // Enter new layers
+        const layerEnter = layer.enter().append("g")
+            .attr("class", "layer")
+            .attr("fill", (d, i) => d3.schemeTableau10[i]);
+
+        // Enter new rectangles
+        const rect = layerEnter.selectAll("rect")
+            .data(d => d)
+            .enter().append("rect")
+            .attr("x", d => x(d.data.name))
+            .attr("y", height) // Start at the bottom
+            .attr("height", 0) // Start with height 0
+            .attr("width", x.bandwidth())
+            .transition() // Transition for entering bars
+            .duration(500)
+            .attr("y", d => y(d[1]))
+            .attr("height", d => y(d[0]) - y(d[1]));
+
+        // Update existing rectangles
+        const rectUpdate = svg.selectAll(".layer").selectAll("rect")
+            .data(d => d);
+
+        rectUpdate.transition() // Transition for updating bars
+            .duration(500)
+            .attr("y", d => y(d[1]))
+            .attr("height", d => y(d[0]) - y(d[1]));
+
+        // Exit selection for layers
+        layer.exit().remove();
+
+        // Update legend
+        updateLegend(keys, [d3.schemeTableau10[0], d3.schemeTableau10[1], d3.schemeTableau10[2]], width, 0);
+    }
+
+    // Function to create and update the legend
+    function updateLegend(keys, colors, xPos, yPos) {
+        // Remove existing legend
+        svg.selectAll(".legend").remove();
+
+        // Create new legend
+        const legend = svg.selectAll(".legend")
+            .data(keys)
+            .enter().append("g")
+            .attr("class", "legend")
+            .attr("transform", (d, i) => `translate(${xPos},${yPos + i * 20})`);
+
+        // Append rectangles and text to the legend
+        legend.append("rect")
+            .attr("x", 0)
+            .attr("width", 8)
+            .attr("height", 8)
+            .attr("fill", (d, i) => colors[i]);
+
+        legend.append("text")
+            .attr("x", 10)
+            .attr("y", 9)
+            .attr("dy", "-2")
+            .attr("class","legend")
+            .text((d) => {
+                if (d === 'sales') return 'Sales';
+                if (d === 'ratings') return 'Ratings';
+                if (d === 'stock') return 'Stock';
+                return '';
+            });
+    }
+
+    // Initial render
+    updateChart(data);
+
+    // Sorting function based on selected option
+    function sortData() {
+        const selectedOption = d3.select("#sortOptions").property("value");
+
+        if (selectedOption === "name") {
+            data.sort((a, b) => d3.ascending(a.name, b.name));
+        } else if (selectedOption === "sum") {
+            data.sort((a, b) => (b.sales + b.ratings + b.stock) - (a.sales + a.ratings + a.stock));
+        } else {
+            data.sort((a, b) => b[selectedOption] - a[selectedOption]);
+        }
+
+        updateChart(data);
+    }
+
+    // Event listener for the dropdown menu
+    d3.select("#sortOptions").on("change", sortData);
+
+</script>
+</body>
+</html>

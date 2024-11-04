@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#chart {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+.axis {
+    font: 10px sans-serif;
+}
+.legend {
+    font: 10px sans-serif;
+}

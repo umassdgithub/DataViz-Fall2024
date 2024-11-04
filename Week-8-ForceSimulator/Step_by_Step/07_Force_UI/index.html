@@ -73,13 +73,13 @@
             </div>
             <div>
             <label for="distanceMax">distanceMax</label>
-            <input type="range" name="distanceMax" id="distanceMax">
+            <input type="range" name="distanceMax" id="distanceMax" min="0" max="15" value="12">
             </div>
             <div>
 
 
             <label for="distanceMin">distanceMin</label>
-            <input type="range" name="distanceMin" id="distanceMin">
+            <input type="range" name="distanceMin" id="distanceMin" min="0" max="15" value="12">
             </div>
             <div>
             <label for="forceLink">forceLink</label>
@@ -184,8 +184,10 @@
                     simulation.force("charge").strength(value)
                     break
                 case "distanceMax":
+                    simulation.force("link").distanceMax(value);
                     break
                 case "distanceMin":
+                    simulation.force("link").distanceMin(value);
                     break
                 case "forceLink":
                     simulation.force("link").distance(value)
