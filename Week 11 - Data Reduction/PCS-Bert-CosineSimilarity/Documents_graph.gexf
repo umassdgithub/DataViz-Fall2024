@@ -1,0 +1,1982 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-13">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="title" type="string" />
+    </attributes>
+    <nodes>
+      <node id="3" label="3">
+        <attvalues>
+          <attvalue for="0" value="VR system for spatio-temporal visualization of tweet data and support of map exploration" />
+        </attvalues>
+      </node>
+      <node id="107" label="107">
+        <attvalues>
+          <attvalue for="0" value="TSViz: A data stream architecture to online collect, analyze, and visualize tweets" />
+        </attvalues>
+      </node>
+      <node id="260" label="260">
+        <attvalues>
+          <attvalue for="0" value="A hierarchical photo visualization system emphasizing temporal and color-based coherences" />
+        </attvalues>
+      </node>
+      <node id="266" label="266">
+        <attvalues>
+          <attvalue for="0" value="Time-aware visualization of document collections" />
+        </attvalues>
+      </node>
+      <node id="336" label="336">
+        <attvalues>
+          <attvalue for="0" value="A web-based photo management system for large photo collections with user-customizable quality assessment" />
+        </attvalues>
+      </node>
+      <node id="349" label="349">
+        <attvalues>
+          <attvalue for="0" value="Photoland: A new image layout system using spatio-temporal information in digital photos" />
+        </attvalues>
+      </node>
+      <node id="468" label="468">
+        <attvalues>
+          <attvalue for="0" value="Change blindness in information visualization: A case study" />
+        </attvalues>
+      </node>
+      <node id="498" label="498">
+        <attvalues>
+          <attvalue for="0" value="ThemeRiver: visualizing theme changes over time" />
+        </attvalues>
+      </node>
+      <node id="545" label="545">
+        <attvalues>
+          <attvalue for="0" value="Research report: adaptive information visualization based on the user's multiple viewpoints - interactive 3D visualization of the WWW" />
+        </attvalues>
+      </node>
+      <node id="4" label="4">
+        <attvalues>
+          <attvalue for="0" value="DiseaSE: A biomedical text analytics system for disease symptom extraction and characterization" />
+        </attvalues>
+      </node>
+      <node id="262" label="262">
+        <attvalues>
+          <attvalue for="0" value="P2TF: A comprehensive resource for analysis of prokaryotic transcription factors" />
+        </attvalues>
+      </node>
+      <node id="356" label="356">
+        <attvalues>
+          <attvalue for="0" value="P2CS: A two-component system resource for prokaryotic signal transduction research" />
+        </attvalues>
+      </node>
+      <node id="5" label="5">
+        <attvalues>
+          <attvalue for="0" value="Remote interactive collaboration in facilities management using BIM-based mixed reality" />
+        </attvalues>
+      </node>
+      <node id="134" label="134">
+        <attvalues>
+          <attvalue for="0" value="Managing construction schedule by telepresence: Integration of site video feed with an active nD CAD simulation" />
+        </attvalues>
+      </node>
+      <node id="251" label="251">
+        <attvalues>
+          <attvalue for="0" value="Real-time resource location data collection and visualization technology for construction safety and activity monitoring applications" />
+        </attvalues>
+      </node>
+      <node id="258" label="258">
+        <attvalues>
+          <attvalue for="0" value="Automatic spatio-temporal analysis of construction site equipment operations using GPS data" />
+        </attvalues>
+      </node>
+      <node id="523" label="523">
+        <attvalues>
+          <attvalue for="0" value="Exploring the brain forest" />
+        </attvalues>
+      </node>
+      <node id="6" label="6">
+        <attvalues>
+          <attvalue for="0" value="Research on the emergency management pattern and adjustment system for urban waterlogging" />
+        </attvalues>
+      </node>
+      <node id="8" label="8">
+        <attvalues>
+          <attvalue for="0" value="Development of methods and tools to support regional management in the Arctic zone of the Russian Federation based on cognitive interfaces" />
+        </attvalues>
+      </node>
+      <node id="15" label="15">
+        <attvalues>
+          <attvalue for="0" value="Research on the Smart Information System of Weihe River Basin" />
+        </attvalues>
+      </node>
+      <node id="30" label="30">
+        <attvalues>
+          <attvalue for="0" value="Establishment of digital river network control platform in Beijing-Tianjin-Hebei region based on integrated platform" />
+        </attvalues>
+      </node>
+      <node id="158" label="158">
+        <attvalues>
+          <attvalue for="0" value="Visualization of the karst development dynamics by spatial-temporal maps" />
+        </attvalues>
+      </node>
+      <node id="169" label="169">
+        <attvalues>
+          <attvalue for="0" value="GIS developments at the Budapest Sewage works" />
+        </attvalues>
+      </node>
+      <node id="174" label="174">
+        <attvalues>
+          <attvalue for="0" value="Use of GIS technology in surface water monitoring for targeted policy intervention in a mountainous catchment in Romania" />
+        </attvalues>
+      </node>
+      <node id="178" label="178">
+        <attvalues>
+          <attvalue for="0" value="Development of maintenance-supporting IoT system of plant equipment" />
+        </attvalues>
+      </node>
+      <node id="322" label="322">
+        <attvalues>
+          <attvalue for="0" value="SIMFOR: Towards a collaborative software platform for urban crisis management" />
+        </attvalues>
+      </node>
+      <node id="7" label="7">
+        <attvalues>
+          <attvalue for="0" value="Web-based decision support system tools: The Soil and Water Assessment Tool Online visualization and analyses (SWATOnline) and NASA earth observation data downloading and reformatting tool (NASAaccess)" />
+        </attvalues>
+      </node>
+      <node id="10" label="10">
+        <attvalues>
+          <attvalue for="0" value="AltEx: An open source web application and toolkit for accessing and exploring altimetry datasets" />
+        </attvalues>
+      </node>
+      <node id="12" label="12">
+        <attvalues>
+          <attvalue for="0" value="AkvaGIS: An open source tool for water quantity and quality management" />
+        </attvalues>
+      </node>
+      <node id="36" label="36">
+        <attvalues>
+          <attvalue for="0" value="A cloud-based flood warning system for forecasting impacts to transportation infrastructure systems" />
+        </attvalues>
+      </node>
+      <node id="150" label="150">
+        <attvalues>
+          <attvalue for="0" value="Open source software for visualization and quality control of continuous hydrologic and water quality sensor data" />
+        </attvalues>
+      </node>
+      <node id="226" label="226">
+        <attvalues>
+          <attvalue for="0" value="Data visualization and analysis within a Hydrologic Information System: Integrating with the R statistical computing environment" />
+        </attvalues>
+      </node>
+      <node id="241" label="241">
+        <attvalues>
+          <attvalue for="0" value="A Decision Support System for irrigation water allocation along the middle reaches of the Heihe River Basin, Northwest China" />
+        </attvalues>
+      </node>
+      <node id="21" label="21">
+        <attvalues>
+          <attvalue for="0" value="The method of dynamic visualization of spatial data for cognitive interfaces of information systems supporting regional management" />
+        </attvalues>
+      </node>
+      <node id="25" label="25">
+        <attvalues>
+          <attvalue for="0" value="Geoinformation support of hydrological research in the arctic on the example of geoinformation resources development" />
+        </attvalues>
+      </node>
+      <node id="286" label="286">
+        <attvalues>
+          <attvalue for="0" value="3D documentation of natural heritage for virtual environments and web - Case study: Valley of Geysers, Kamchatka" />
+        </attvalues>
+      </node>
+      <node id="9" label="9">
+        <attvalues>
+          <attvalue for="0" value="Analysis of server-side and client-side Web-GIS data processing methods on the example of JTS and JSTS using open data from OSM and geoportal" />
+        </attvalues>
+      </node>
+      <node id="35" label="35">
+        <attvalues>
+          <attvalue for="0" value="Integrating free and open source tools and distributed modelling codes in GIS environment for data-based groundwater management" />
+        </attvalues>
+      </node>
+      <node id="127" label="127">
+        <attvalues>
+          <attvalue for="0" value="Development of climate data storage and processing model" />
+        </attvalues>
+      </node>
+      <node id="348" label="348">
+        <attvalues>
+          <attvalue for="0" value="Interactive visualization of marine pollution monitoring and forecasting data via a Web-based GIS" />
+        </attvalues>
+      </node>
+      <node id="445" label="445">
+        <attvalues>
+          <attvalue for="0" value="PANGAEA - an information system for environmental sciences" />
+        </attvalues>
+      </node>
+      <node id="126" label="126">
+        <attvalues>
+          <attvalue for="0" value="Development of computational module of regional aridity for web-GIS &quot;climate&quot;" />
+        </attvalues>
+      </node>
+      <node id="128" label="128">
+        <attvalues>
+          <attvalue for="0" value="Environmental science applications with Rapid Integrated Mapping and analysis System (RIMS)" />
+        </attvalues>
+      </node>
+      <node id="186" label="186">
+        <attvalues>
+          <attvalue for="0" value="Regional scale cropland carbon budgets: Evaluating a geospatial agricultural modeling system using inventory data" />
+        </attvalues>
+      </node>
+      <node id="240" label="240">
+        <attvalues>
+          <attvalue for="0" value="A dynamic graphical interface for visualizing projected, measured, and reconstructed surface water elevations on the earth's largest lakes" />
+        </attvalues>
+      </node>
+      <node id="11" label="11">
+        <attvalues>
+          <attvalue for="0" value="Spatial and temporal processes visualization for marine environmental data using particle system" />
+        </attvalues>
+      </node>
+      <node id="43" label="43">
+        <attvalues>
+          <attvalue for="0" value="Spatial query based virtual reality GIS analysis platform" />
+        </attvalues>
+      </node>
+      <node id="154" label="154">
+        <attvalues>
+          <attvalue for="0" value="Spatio-temporal visualization of air-sea CO2 flux and carbon budget using volume rendering" />
+        </attvalues>
+      </node>
+      <node id="13" label="13">
+        <attvalues>
+          <attvalue for="0" value="An efficient computerized decision support system for the analysis and 3D visualization of brain tumor" />
+        </attvalues>
+      </node>
+      <node id="84" label="84">
+        <attvalues>
+          <attvalue for="0" value="Mechanical performance assessment system for endotracheal tube introducers using motion detection and object tracking" />
+        </attvalues>
+      </node>
+      <node id="97" label="97">
+        <attvalues>
+          <attvalue for="0" value="Patient-maintained propofol sedation: The anaesthetists’ point of view" />
+        </attvalues>
+      </node>
+      <node id="100" label="100">
+        <attvalues>
+          <attvalue for="0" value="Artifact removal and lesion segmentation for melanoma detection in skin lesion images" />
+        </attvalues>
+      </node>
+      <node id="239" label="239">
+        <attvalues>
+          <attvalue for="0" value="Smart Compass-Clinometer: A smartphone application for easy and rapid geological site investigation" />
+        </attvalues>
+      </node>
+      <node id="271" label="271">
+        <attvalues>
+          <attvalue for="0" value="Questionnaire- versus voice-based screening for laryngeal disorders" />
+        </attvalues>
+      </node>
+      <node id="287" label="287">
+        <attvalues>
+          <attvalue for="0" value="Tongue segmentation from MRI images using ITK-SNAP: Preliminary evaluation" />
+        </attvalues>
+      </node>
+      <node id="308" label="308">
+        <attvalues>
+          <attvalue for="0" value="Partition iterated function radiographs image enhancement for fish bone detection" />
+        </attvalues>
+      </node>
+      <node id="316" label="316">
+        <attvalues>
+          <attvalue for="0" value="Segmentation and discrimination of breast tumors in ultrasonic images using an ensemble classifier and application to a diagnostic support system" />
+        </attvalues>
+      </node>
+      <node id="500" label="500">
+        <attvalues>
+          <attvalue for="0" value="Empirical evaluation of information visualizations: An introduction" />
+        </attvalues>
+      </node>
+      <node id="17" label="17">
+        <attvalues>
+          <attvalue for="0" value="Algorithm for quantitative analysis of close call events and personalized feedback in construction safety" />
+        </attvalues>
+      </node>
+      <node id="20" label="20">
+        <attvalues>
+          <attvalue for="0" value="Cartographic bases of the multi-subject method of information visualization in the preparation of bachelors in the direction of “Tourism”" />
+        </attvalues>
+      </node>
+      <node id="44" label="44">
+        <attvalues>
+          <attvalue for="0" value="Graphical visualization of educational information during the studying process of the students in universities" />
+        </attvalues>
+      </node>
+      <node id="62" label="62">
+        <attvalues>
+          <attvalue for="0" value="A technological solution for a collaborative mobile web platform: Higher M@T-Edututor" />
+        </attvalues>
+      </node>
+      <node id="205" label="205">
+        <attvalues>
+          <attvalue for="0" value="Health games" />
+        </attvalues>
+      </node>
+      <node id="60" label="60">
+        <attvalues>
+          <attvalue for="0" value="Eliciting requirements for digital systems using activity and task analysis" />
+        </attvalues>
+      </node>
+      <node id="180" label="180">
+        <attvalues>
+          <attvalue for="0" value="GIS tools for the evaluation of the sigma and beta convergence trends in Eastern Europe between 2001-2011" />
+        </attvalues>
+      </node>
+      <node id="250" label="250">
+        <attvalues>
+          <attvalue for="0" value="The role of standards in spatial data quality visualisation" />
+        </attvalues>
+      </node>
+      <node id="540" label="540">
+        <attvalues>
+          <attvalue for="0" value="Visualization of GIS data in VR related to cognitive mapping of environment" />
+        </attvalues>
+      </node>
+      <node id="22" label="22">
+        <attvalues>
+          <attvalue for="0" value="Algorithm for selection of visualization components in the synthesis of training complexes" />
+        </attvalues>
+      </node>
+      <node id="91" label="91">
+        <attvalues>
+          <attvalue for="0" value="Surveying games with a combined model of immersion and flow" />
+        </attvalues>
+      </node>
+      <node id="216" label="216">
+        <attvalues>
+          <attvalue for="0" value="Computer-aided tool for breast tumour analysis purposes" />
+        </attvalues>
+      </node>
+      <node id="277" label="277">
+        <attvalues>
+          <attvalue for="0" value="A framework for identifying user suitability to visualisation approaches" />
+        </attvalues>
+      </node>
+      <node id="306" label="306">
+        <attvalues>
+          <attvalue for="0" value="A comparison of optical flow techniques for a blind spot camera" />
+        </attvalues>
+      </node>
+      <node id="546" label="546">
+        <attvalues>
+          <attvalue for="0" value="Information exploration shootout project and benchmark data sets: evaluating how visualization does in analyzing real-world data analysis problems" />
+        </attvalues>
+      </node>
+      <node id="23" label="23">
+        <attvalues>
+          <attvalue for="0" value="Information system for research and forecasting the results of matches of football teams of the Russian premier league" />
+        </attvalues>
+      </node>
+      <node id="86" label="86">
+        <attvalues>
+          <attvalue for="0" value="Automatization of algorithms for visual quality control of coatings and contours on the products for medical purposes" />
+        </attvalues>
+      </node>
+      <node id="98" label="98">
+        <attvalues>
+          <attvalue for="0" value="Investigation of game preference in the University Student" />
+        </attvalues>
+      </node>
+      <node id="131" label="131">
+        <attvalues>
+          <attvalue for="0" value="Application of GIS and Remote Sensing Techniques in Multitemporal Analyses of Soil Properties in the Foreland of the Carpathians" />
+        </attvalues>
+      </node>
+      <node id="269" label="269">
+        <attvalues>
+          <attvalue for="0" value="An adaptive and innovative question-driven competition-based intelligent tutoring system for learning" />
+        </attvalues>
+      </node>
+      <node id="24" label="24">
+        <attvalues>
+          <attvalue for="0" value="Software for processing and visualization of measurements of the deformation of the Earth's crust" />
+        </attvalues>
+      </node>
+      <node id="172" label="172">
+        <attvalues>
+          <attvalue for="0" value="Possibility of using remote sensing for overflow land due to mining activities in upper silesian coal basin" />
+        </attvalues>
+      </node>
+      <node id="282" label="282">
+        <attvalues>
+          <attvalue for="0" value="Adequate 3D visualization of remotely sensed ICE shelf and sea surface temperature data" />
+        </attvalues>
+      </node>
+      <node id="298" label="298">
+        <attvalues>
+          <attvalue for="0" value="Bubbling in liquids" />
+        </attvalues>
+      </node>
+      <node id="299" label="299">
+        <attvalues>
+          <attvalue for="0" value="Polar motion station-webcam calibration for solar tracking" />
+        </attvalues>
+      </node>
+      <node id="317" label="317">
+        <attvalues>
+          <attvalue for="0" value="Super-resolution imaging: The use case of optical astronomy" />
+        </attvalues>
+      </node>
+      <node id="320" label="320">
+        <attvalues>
+          <attvalue for="0" value="Indication of methane gas in IR-imagery" />
+        </attvalues>
+      </node>
+      <node id="173" label="173">
+        <attvalues>
+          <attvalue for="0" value="Technological developments for environmental studies" />
+        </attvalues>
+      </node>
+      <node id="28" label="28">
+        <attvalues>
+          <attvalue for="0" value="Moodplay: Interactive music recommendation based on Artists’ mood similarity" />
+        </attvalues>
+      </node>
+      <node id="53" label="53">
+        <attvalues>
+          <attvalue for="0" value="Psychotherapy chatbot design proposal: Empirical tests of user’s psychological responses and self-disclosure to chatbots with personalities" />
+        </attvalues>
+      </node>
+      <node id="54" label="54">
+        <attvalues>
+          <attvalue for="0" value="How empathizing with persona helps in design thinking: An experimental study with novice designers" />
+        </attvalues>
+      </node>
+      <node id="79" label="79">
+        <attvalues>
+          <attvalue for="0" value="The effect of background instrumental music on emotion and performance" />
+        </attvalues>
+      </node>
+      <node id="89" label="89">
+        <attvalues>
+          <attvalue for="0" value="Investigating elearning preferences of adults with intellectual disability" />
+        </attvalues>
+      </node>
+      <node id="95" label="95">
+        <attvalues>
+          <attvalue for="0" value="Design and evaluation of smartphone-based training for mindfulness and openness to experience" />
+        </attvalues>
+      </node>
+      <node id="96" label="96">
+        <attvalues>
+          <attvalue for="0" value="Gamer typology based on personality and motivational footprints" />
+        </attvalues>
+      </node>
+      <node id="218" label="218">
+        <attvalues>
+          <attvalue for="0" value="Towards ludoacoustic immersion perspectives on transcending the virtual and the real of functional sound and music in interactive media" />
+        </attvalues>
+      </node>
+      <node id="29" label="29">
+        <attvalues>
+          <attvalue for="0" value="Determining burried remains under the ala gate road of anavarza ancient city in the southern of turkey with interactive transparent 3D GPR data imaging" />
+        </attvalues>
+      </node>
+      <node id="176" label="176">
+        <attvalues>
+          <attvalue for="0" value="Study of soil loss quantity on the arable territories using estimations of soil pollutants migration and geomorphometric parameters of the microrelief" />
+        </attvalues>
+      </node>
+      <node id="32" label="32">
+        <attvalues>
+          <attvalue for="0" value="Evaluation of Convolutional Neural Network Architectures for Chart Image Classification" />
+        </attvalues>
+      </node>
+      <node id="367" label="367">
+        <attvalues>
+          <attvalue for="0" value="An empirical evaluation of four data visualization techniques for displaying short news text similarities" />
+        </attvalues>
+      </node>
+      <node id="390" label="390">
+        <attvalues>
+          <attvalue for="0" value="Deciding on fitness for use: Evaluating the utility of sample maps as an element of geospatial metadata" />
+        </attvalues>
+      </node>
+      <node id="407" label="407">
+        <attvalues>
+          <attvalue for="0" value="Multimodal phoneme recognition of meeting data" />
+        </attvalues>
+      </node>
+      <node id="455" label="455">
+        <attvalues>
+          <attvalue for="0" value="Human factors aspects of power system voltage visualizations" />
+        </attvalues>
+      </node>
+      <node id="33" label="33">
+        <attvalues>
+          <attvalue for="0" value="A comprehensive graphical modeling platform designed for integrated hydrological simulation" />
+        </attvalues>
+      </node>
+      <node id="140" label="140">
+        <attvalues>
+          <attvalue for="0" value="Development of a visualization tool for integrated surface water-groundwater modeling" />
+        </attvalues>
+      </node>
+      <node id="121" label="121">
+        <attvalues>
+          <attvalue for="0" value="Web-GIS application for analyses of the sensors data on the web" />
+        </attvalues>
+      </node>
+      <node id="446" label="446">
+        <attvalues>
+          <attvalue for="0" value="Interactive analysis and visualization of geoscience data with Ocean Data View" />
+        </attvalues>
+      </node>
+      <node id="37" label="37">
+        <attvalues>
+          <attvalue for="0" value="An online tool for measuring and visualizing phenotype similarities using HPO" />
+        </attvalues>
+      </node>
+      <node id="224" label="224">
+        <attvalues>
+          <attvalue for="0" value="Introduction to the special issue on visual analytics using multidimensional projections" />
+        </attvalues>
+      </node>
+      <node id="451" label="451">
+        <attvalues>
+          <attvalue for="0" value="Information management and visualization in electric power systems" />
+        </attvalues>
+      </node>
+      <node id="38" label="38">
+        <attvalues>
+          <attvalue for="0" value="Ontology-driven data integration and visualization for exploring regional geologic time and paleontological information" />
+        </attvalues>
+      </node>
+      <node id="231" label="231">
+        <attvalues>
+          <attvalue for="0" value="Data model for multidimensional geological subsurface data in geographic information system" />
+        </attvalues>
+      </node>
+      <node id="273" label="273">
+        <attvalues>
+          <attvalue for="0" value="Ontology-aided annotation, visualization, and generalization of geological time-scale information from online geological map services" />
+        </attvalues>
+      </node>
+      <node id="39" label="39">
+        <attvalues>
+          <attvalue for="0" value="Understanding data dimensions by cluster visualization using edge bundling in parallel coordinates" />
+        </attvalues>
+      </node>
+      <node id="419" label="419">
+        <attvalues>
+          <attvalue for="0" value="The effect of knowledge-of-external-representations upon performance and representational choice in a database query task" />
+        </attvalues>
+      </node>
+      <node id="41" label="41">
+        <attvalues>
+          <attvalue for="0" value="Ontology-driven development of web services to support district energy applications" />
+        </attvalues>
+      </node>
+      <node id="255" label="255">
+        <attvalues>
+          <attvalue for="0" value="Integrated modeling within a hydrologic information system: An OpenMI based approach" />
+        </attvalues>
+      </node>
+      <node id="314" label="314">
+        <attvalues>
+          <attvalue for="0" value="Implementing compositing managers in embedded systems" />
+        </attvalues>
+      </node>
+      <node id="42" label="42">
+        <attvalues>
+          <attvalue for="0" value="Performance evaluation of 3D descriptors for object recognition in construction applications" />
+        </attvalues>
+      </node>
+      <node id="115" label="115">
+        <attvalues>
+          <attvalue for="0" value="Spatial data visualization: The appropriate use of colours" />
+        </attvalues>
+      </node>
+      <node id="118" label="118">
+        <attvalues>
+          <attvalue for="0" value="Legislative aspects of spatial data publication" />
+        </attvalues>
+      </node>
+      <node id="170" label="170">
+        <attvalues>
+          <attvalue for="0" value="Converting database on dendrological objects of kortowo campus at the University of Warmia and mazury in olsztyn to current GIS standards" />
+        </attvalues>
+      </node>
+      <node id="217" label="217">
+        <attvalues>
+          <attvalue for="0" value="Multimodal robots as educational tools in primary and lower secondary education" />
+        </attvalues>
+      </node>
+      <node id="238" label="238">
+        <attvalues>
+          <attvalue for="0" value="Method of identification" />
+        </attvalues>
+      </node>
+      <node id="45" label="45">
+        <attvalues>
+          <attvalue for="0" value="BGS: A large-scale graph visualization tool" />
+        </attvalues>
+      </node>
+      <node id="525" label="525">
+        <attvalues>
+          <attvalue for="0" value="IVORY - an object-oriented framework for physics-based information visualization in Java" />
+        </attvalues>
+      </node>
+      <node id="114" label="114">
+        <attvalues>
+          <attvalue for="0" value="Display systems for visualization and simulation in virtual environments" />
+        </attvalues>
+      </node>
+      <node id="49" label="49">
+        <attvalues>
+          <attvalue for="0" value="CNVis: A web-based visual analytics tool for exploring conference navigator data" />
+        </attvalues>
+      </node>
+      <node id="230" label="230">
+        <attvalues>
+          <attvalue for="0" value="Visual network analysis of twitter data for co-organizing conferences: Case CMAD 2013" />
+        </attvalues>
+      </node>
+      <node id="93" label="93">
+        <attvalues>
+          <attvalue for="0" value="Predictors of gaze agency in gaze-controlled interfaces" />
+        </attvalues>
+      </node>
+      <node id="81" label="81">
+        <attvalues>
+          <attvalue for="0" value="An experimental study to evaluate influence of usability on learning behaviour" />
+        </attvalues>
+      </node>
+      <node id="87" label="87">
+        <attvalues>
+          <attvalue for="0" value="Evaluating system accessibility using an experimental protocol based on usability" />
+        </attvalues>
+      </node>
+      <node id="204" label="204">
+        <attvalues>
+          <attvalue for="0" value="A comparison of immersion between players playing the same game with and without graphics" />
+        </attvalues>
+      </node>
+      <node id="57" label="57">
+        <attvalues>
+          <attvalue for="0" value="Choice of the regularization parameter for total variation image denoising using no-reference metric" />
+        </attvalues>
+      </node>
+      <node id="58" label="58">
+        <attvalues>
+          <attvalue for="0" value="Moran’s Z based adaptive image filter" />
+        </attvalues>
+      </node>
+      <node id="212" label="212">
+        <attvalues>
+          <attvalue for="0" value="Image block compressed sensing under low sampling-ratio" />
+        </attvalues>
+      </node>
+      <node id="219" label="219">
+        <attvalues>
+          <attvalue for="0" value="Extracting pupil contour with hough transform of connected component boundaries" />
+        </attvalues>
+      </node>
+      <node id="284" label="284">
+        <attvalues>
+          <attvalue for="0" value="Homography using topological information from scattered feature points" />
+        </attvalues>
+      </node>
+      <node id="324" label="324">
+        <attvalues>
+          <attvalue for="0" value="Eye centre location with Hough transform" />
+        </attvalues>
+      </node>
+      <node id="61" label="61">
+        <attvalues>
+          <attvalue for="0" value="Sonar image denoising based on wavelet transform using non-local means filtering" />
+        </attvalues>
+      </node>
+      <node id="59" label="59">
+        <attvalues>
+          <attvalue for="0" value="Denoising approach for high-resolution computed tomography data" />
+        </attvalues>
+      </node>
+      <node id="307" label="307">
+        <attvalues>
+          <attvalue for="0" value="An enlargement method based on undecimated wavelet transform and enhancement function" />
+        </attvalues>
+      </node>
+      <node id="63" label="63">
+        <attvalues>
+          <attvalue for="0" value="A semi-automated method for measuring Fels indicators for skeletal maturity assessment in children" />
+        </attvalues>
+      </node>
+      <node id="214" label="214">
+        <attvalues>
+          <attvalue for="0" value="Developing of evaluation method of motion repeatability by motion capturing" />
+        </attvalues>
+      </node>
+      <node id="221" label="221">
+        <attvalues>
+          <attvalue for="0" value="3D foot scanning in flexible manufacturing: Comparisation and deformation solution" />
+        </attvalues>
+      </node>
+      <node id="288" label="288">
+        <attvalues>
+          <attvalue for="0" value="Accurate multi-modal image registration using compression" />
+        </attvalues>
+      </node>
+      <node id="68" label="68">
+        <attvalues>
+          <attvalue for="0" value="Exploring the impact of ambiguous icons in mobile web interfaces" />
+        </attvalues>
+      </node>
+      <node id="70" label="70">
+        <attvalues>
+          <attvalue for="0" value="Modelling user experience: Integrating user experience research into design education" />
+        </attvalues>
+      </node>
+      <node id="74" label="74">
+        <attvalues>
+          <attvalue for="0" value="Redesign of the bank reconciliation interface of the ContaAzul software" />
+        </attvalues>
+      </node>
+      <node id="185" label="185">
+        <attvalues>
+          <attvalue for="0" value="Gamified platform to support children with obesity" />
+        </attvalues>
+      </node>
+      <node id="78" label="78">
+        <attvalues>
+          <attvalue for="0" value="Evaluating usability and engagement in a money management tool for users with intellectual disability" />
+        </attvalues>
+      </node>
+      <node id="82" label="82">
+        <attvalues>
+          <attvalue for="0" value="Exploring aesthetics, emotion and usability in eLearning applications for users with intellectual disability" />
+        </attvalues>
+      </node>
+      <node id="389" label="389">
+        <attvalues>
+          <attvalue for="0" value="Browsing a document collection represented in two- and three-dimensional virtual information space" />
+        </attvalues>
+      </node>
+      <node id="469" label="469">
+        <attvalues>
+          <attvalue for="0" value="An empirical comparison of three commercial information visualization systems" />
+        </attvalues>
+      </node>
+      <node id="80" label="80">
+        <attvalues>
+          <attvalue for="0" value="Automatic table tennis scoring system based on smart wearable devices" />
+        </attvalues>
+      </node>
+      <node id="189" label="189">
+        <attvalues>
+          <attvalue for="0" value="Perceptions of the elderly users of motion tracking exergames" />
+        </attvalues>
+      </node>
+      <node id="207" label="207">
+        <attvalues>
+          <attvalue for="0" value="The development of a sensory game for elderly people utilizing physical contact" />
+        </attvalues>
+      </node>
+      <node id="83" label="83">
+        <attvalues>
+          <attvalue for="0" value="Reconstruction of geometrically processed surface from computed tomography data" />
+        </attvalues>
+      </node>
+      <node id="182" label="182">
+        <attvalues>
+          <attvalue for="0" value="FPGA based implementation of a novel image steganography algorithm" />
+        </attvalues>
+      </node>
+      <node id="215" label="215">
+        <attvalues>
+          <attvalue for="0" value="Rock fall simulation using 3D models reconstructed from multiple-view images" />
+        </attvalues>
+      </node>
+      <node id="257" label="257">
+        <attvalues>
+          <attvalue for="0" value="Map application of Czech Orienteering Federation Map archive" />
+        </attvalues>
+      </node>
+      <node id="92" label="92">
+        <attvalues>
+          <attvalue for="0" value="Integrating challenge based learning approach into the stages of the game design thinking" />
+        </attvalues>
+      </node>
+      <node id="103" label="103">
+        <attvalues>
+          <attvalue for="0" value="Evaluating games: A second stage of the game development process" />
+        </attvalues>
+      </node>
+      <node id="208" label="208">
+        <attvalues>
+          <attvalue for="0" value="An efficient method for designing learning games for mathematics" />
+        </attvalues>
+      </node>
+      <node id="209" label="209">
+        <attvalues>
+          <attvalue for="0" value="Plants vs zombies as an empowering learning machine" />
+        </attvalues>
+      </node>
+      <node id="190" label="190">
+        <attvalues>
+          <attvalue for="0" value="Simulation of low-vision experience by using a head-mounted virtual reality system" />
+        </attvalues>
+      </node>
+      <node id="296" label="296">
+        <attvalues>
+          <attvalue for="0" value="Measure of individual eye-head coordination compared in real and virtual environment" />
+        </attvalues>
+      </node>
+      <node id="99" label="99">
+        <attvalues>
+          <attvalue for="0" value="Google glass as a learning tool: Sharing evaluation results for the role of optical head mounted displays in education" />
+        </attvalues>
+      </node>
+      <node id="102" label="102">
+        <attvalues>
+          <attvalue for="0" value="Kiss (keep it simple, stupid) for trust!" />
+        </attvalues>
+      </node>
+      <node id="136" label="136">
+        <attvalues>
+          <attvalue for="0" value="Can visualization techniques help journalists to deepen analysis of twitter data? exploring the «Germany 7 x 1 Brazil» case" />
+        </attvalues>
+      </node>
+      <node id="111" label="111">
+        <attvalues>
+          <attvalue for="0" value="Evaluating the effect of visually represented geodata uncertainty on decision-making: systematic review, lessons learned, and recommendations" />
+        </attvalues>
+      </node>
+      <node id="281" label="281">
+        <attvalues>
+          <attvalue for="0" value="ZAPP - A management framework for distributed visualization systems" />
+        </attvalues>
+      </node>
+      <node id="227" label="227">
+        <attvalues>
+          <attvalue for="0" value="Visualization of fuzzy surfaces with an emphasis on user aspects" />
+        </attvalues>
+      </node>
+      <node id="117" label="117">
+        <attvalues>
+          <attvalue for="0" value="Analysis enhanced particle-based flow visualization" />
+        </attvalues>
+      </node>
+      <node id="559" label="559">
+        <attvalues>
+          <attvalue for="0" value="Proceedings of the 1995 6th Annual IEEE Conference on Visualization" />
+        </attvalues>
+      </node>
+      <node id="237" label="237">
+        <attvalues>
+          <attvalue for="0" value="Concept of a geographic information system for the purposes of spatial planning of degraded areas" />
+        </attvalues>
+      </node>
+      <node id="253" label="253">
+        <attvalues>
+          <attvalue for="0" value="Uncertainty vs. spatial data quality visualisations: A case study on ecotones" />
+        </attvalues>
+      </node>
+      <node id="120" label="120">
+        <attvalues>
+          <attvalue for="0" value="Eco-buildings sustainable design in linkage with remote sensing and underground urban agriculture" />
+        </attvalues>
+      </node>
+      <node id="196" label="196">
+        <attvalues>
+          <attvalue for="0" value="A virtual keyboard interface for head-mounted display devices" />
+        </attvalues>
+      </node>
+      <node id="123" label="123">
+        <attvalues>
+          <attvalue for="0" value="Visual interactive creation and validation of text clustering workflows to explore document collections" />
+        </attvalues>
+      </node>
+      <node id="442" label="442">
+        <attvalues>
+          <attvalue for="0" value="Carrot2 and language properties in web search results clustering" />
+        </attvalues>
+      </node>
+      <node id="494" label="494">
+        <attvalues>
+          <attvalue for="0" value="Lighthouse: showing the way to relevant information" />
+        </attvalues>
+      </node>
+      <node id="125" label="125">
+        <attvalues>
+          <attvalue for="0" value="Using lag-sequential analysis for understanding interaction sequences in visualizations" />
+        </attvalues>
+      </node>
+      <node id="252" label="252">
+        <attvalues>
+          <attvalue for="0" value="Provision of awareness of learners' emotions through visualizations in a computer interaction-based environment" />
+        </attvalues>
+      </node>
+      <node id="130" label="130">
+        <attvalues>
+          <attvalue for="0" value="Learning space model for educational social networks" />
+        </attvalues>
+      </node>
+      <node id="181" label="181">
+        <attvalues>
+          <attvalue for="0" value="Binaural sound analysis and spatial localization for the visually impaired people" />
+        </attvalues>
+      </node>
+      <node id="132" label="132">
+        <attvalues>
+          <attvalue for="0" value="Personal informatics for everyday life: How users without prior self-tracking experience engage with personal data" />
+        </attvalues>
+      </node>
+      <node id="133" label="133">
+        <attvalues>
+          <attvalue for="0" value="InteGO2: A web tool for measuring and visualizing gene semantic similarities using Gene Ontology" />
+        </attvalues>
+      </node>
+      <node id="161" label="161">
+        <attvalues>
+          <attvalue for="0" value="3D cartography and geovisualization based on gis and geovrml for an open access landform investigation and analysis within an open web platform (OWP)" />
+        </attvalues>
+      </node>
+      <node id="143" label="143">
+        <attvalues>
+          <attvalue for="0" value="Enhancing parallel coordinates: Statistical visualizations for analyzing soccer data" />
+        </attvalues>
+      </node>
+      <node id="145" label="145">
+        <attvalues>
+          <attvalue for="0" value="MaVis: Machine learning aided multi-model framework for time series visual analytics" />
+        </attvalues>
+      </node>
+      <node id="148" label="148">
+        <attvalues>
+          <attvalue for="0" value="Interactive high-dimensional data analysis using the &quot;three experts&quot;" />
+        </attvalues>
+      </node>
+      <node id="168" label="168">
+        <attvalues>
+          <attvalue for="0" value="Visual analysis of visitor behavior for indoor event management" />
+        </attvalues>
+      </node>
+      <node id="192" label="192">
+        <attvalues>
+          <attvalue for="0" value="Topological clues for predicting outcomes of multiplayer online battle arena games" />
+        </attvalues>
+      </node>
+      <node id="234" label="234">
+        <attvalues>
+          <attvalue for="0" value="Modelling and computer animation of geodetic field work" />
+        </attvalues>
+      </node>
+      <node id="394" label="394">
+        <attvalues>
+          <attvalue for="0" value="Visualization method for customer targeting using customer map" />
+        </attvalues>
+      </node>
+      <node id="146" label="146">
+        <attvalues>
+          <attvalue for="0" value="Segmentation of zebrafish larva inhomogeneous 3dimages using the level-setmethod" />
+        </attvalues>
+      </node>
+      <node id="159" label="159">
+        <attvalues>
+          <attvalue for="0" value="Self-organizing maps with information theoretic learning" />
+        </attvalues>
+      </node>
+      <node id="155" label="155">
+        <attvalues>
+          <attvalue for="0" value="BoreholeAR: A mobile tablet application for effective borehole database visualization using an augmented reality technology" />
+        </attvalues>
+      </node>
+      <node id="272" label="272">
+        <attvalues>
+          <attvalue for="0" value="Locally linear embedding based on correntropy measure for visualization and classification" />
+        </attvalues>
+      </node>
+      <node id="292" label="292">
+        <attvalues>
+          <attvalue for="0" value="Unsupervised optimal discriminant plane with uncorrelated features" />
+        </attvalues>
+      </node>
+      <node id="346" label="346">
+        <attvalues>
+          <attvalue for="0" value="Self organizing maps with the correntropy induced metric" />
+        </attvalues>
+      </node>
+      <node id="160" label="160">
+        <attvalues>
+          <attvalue for="0" value="Real-time visualizing multi-field simulation data in earth climate science" />
+        </attvalues>
+      </node>
+      <node id="163" label="163">
+        <attvalues>
+          <attvalue for="0" value="Parametric nonlinear dimensionality reduction using kernel t-SNE" />
+        </attvalues>
+      </node>
+      <node id="395" label="395">
+        <attvalues>
+          <attvalue for="0" value="Unsupervised recursive sequence processing" />
+        </attvalues>
+      </node>
+      <node id="167" label="167">
+        <attvalues>
+          <attvalue for="0" value="Projection inspector: Assessment and synthesis of multidimensional projections" />
+        </attvalues>
+      </node>
+      <node id="249" label="249">
+        <attvalues>
+          <attvalue for="0" value="Development of a 4D object-based system for visualizing the risk information of construction projects" />
+        </attvalues>
+      </node>
+      <node id="386" label="386">
+        <attvalues>
+          <attvalue for="0" value="A novel visualization classifier and its applications" />
+        </attvalues>
+      </node>
+      <node id="544" label="544">
+        <attvalues>
+          <attvalue for="0" value="Structure of the information visualization design space" />
+        </attvalues>
+      </node>
+      <node id="177" label="177">
+        <attvalues>
+          <attvalue for="0" value="How to improve robustness in Kohonen maps and display additional information in Factorial Analysis: Application to text mining" />
+        </attvalues>
+      </node>
+      <node id="396" label="396">
+        <attvalues>
+          <attvalue for="0" value="How to use the Kohonen algorithm to simultaneously analyze individuals and modalities in a survey" />
+        </attvalues>
+      </node>
+      <node id="411" label="411">
+        <attvalues>
+          <attvalue for="0" value="Geographical information recognition and visualisation in texts written in various languages" />
+        </attvalues>
+      </node>
+      <node id="184" label="184">
+        <attvalues>
+          <attvalue for="0" value="Automatic layout code generation for android applications with multiple orientation support" />
+        </attvalues>
+      </node>
+      <node id="195" label="195">
+        <attvalues>
+          <attvalue for="0" value="Usability evaluation on a new window operation interface by finger gesture above a keyboard" />
+        </attvalues>
+      </node>
+      <node id="187" label="187">
+        <attvalues>
+          <attvalue for="0" value="Between the virtual and the physical: Mental-emotional experiences of space in digital games and virtual worlds" />
+        </attvalues>
+      </node>
+      <node id="424" label="424">
+        <attvalues>
+          <attvalue for="0" value="Simulating the emotion dynamics of a multimodal conversational agent" />
+        </attvalues>
+      </node>
+      <node id="194" label="194">
+        <attvalues>
+          <attvalue for="0" value="Serious game patterns for social interactions" />
+        </attvalues>
+      </node>
+      <node id="263" label="263">
+        <attvalues>
+          <attvalue for="0" value="HydroDesktop: Web services-based software for hydrologic data discovery, download, visualization, and analysis" />
+        </attvalues>
+      </node>
+      <node id="275" label="275">
+        <attvalues>
+          <attvalue for="0" value="A study about influenceable parameters in the choice of visualization techniques based on grounded theory" />
+        </attvalues>
+      </node>
+      <node id="229" label="229">
+        <attvalues>
+          <attvalue for="0" value="Time-space visualisation of Amur river channel changes due to flooding disaster" />
+        </attvalues>
+      </node>
+      <node id="236" label="236">
+        <attvalues>
+          <attvalue for="0" value="Knowledge-assisted BIM-based visual analytics for failure root cause detection in facilities management" />
+        </attvalues>
+      </node>
+      <node id="246" label="246">
+        <attvalues>
+          <attvalue for="0" value="A qualitative methodology for the design of visual analytic tools for emergency operation centers" />
+        </attvalues>
+      </node>
+      <node id="259" label="259">
+        <attvalues>
+          <attvalue for="0" value="Visual Analytics for model-based medical image segmentation: Opportunities and challenges" />
+        </attvalues>
+      </node>
+      <node id="270" label="270">
+        <attvalues>
+          <attvalue for="0" value="Monitoring industrial processes with SOM-based dissimilarity maps" />
+        </attvalues>
+      </node>
+      <node id="532" label="532">
+        <attvalues>
+          <attvalue for="0" value="Reconfigurable disc trees for visualizing large hierarchical information space" />
+        </attvalues>
+      </node>
+      <node id="261" label="261">
+        <attvalues>
+          <attvalue for="0" value="A novel approach to estimate proximity in a random forest: An exploratory study" />
+        </attvalues>
+      </node>
+      <node id="264" label="264">
+        <attvalues>
+          <attvalue for="0" value="Development of a Web-based visualization platform for climate research using Google Earth" />
+        </attvalues>
+      </node>
+      <node id="335" label="335">
+        <attvalues>
+          <attvalue for="0" value="Geospatial visualization of global satellite images with Vis-EROS" />
+        </attvalues>
+      </node>
+      <node id="267" label="267">
+        <attvalues>
+          <attvalue for="0" value="MINI: A 3D mobile image browser with multi-dimensional datasets" />
+        </attvalues>
+      </node>
+      <node id="547" label="547">
+        <attvalues>
+          <attvalue for="0" value="Managing multiple focal levels in Table Lens" />
+        </attvalues>
+      </node>
+      <node id="569" label="569">
+        <attvalues>
+          <attvalue for="0" value="Ray tracing as a tool for visualization of pathogen spread in natural forest stands" />
+        </attvalues>
+      </node>
+      <node id="351" label="351">
+        <attvalues>
+          <attvalue for="0" value="Adaptive local dissimilarity measures for discriminative dimension reduction of labeled data" />
+        </attvalues>
+      </node>
+      <node id="278" label="278">
+        <attvalues>
+          <attvalue for="0" value="Medical image 3D visualization by vector based methods" />
+        </attvalues>
+      </node>
+      <node id="291" label="291">
+        <attvalues>
+          <attvalue for="0" value="Depth value deduction using optical flow for reverse engineering" />
+        </attvalues>
+      </node>
+      <node id="304" label="304">
+        <attvalues>
+          <attvalue for="0" value="Adaptive character motion synthesis by qualitative approach" />
+        </attvalues>
+      </node>
+      <node id="294" label="294">
+        <attvalues>
+          <attvalue for="0" value="Evaluation of two reconstruction systems based on stereovision" />
+        </attvalues>
+      </node>
+      <node id="310" label="310">
+        <attvalues>
+          <attvalue for="0" value="A heuristic approach to multi-focus image fusion" />
+        </attvalues>
+      </node>
+      <node id="318" label="318">
+        <attvalues>
+          <attvalue for="0" value="Recognition of fire/smoke based on computer-vision image segmentation" />
+        </attvalues>
+      </node>
+      <node id="330" label="330">
+        <attvalues>
+          <attvalue for="0" value="Using SOA and RIAs for water data discovery and retrieval" />
+        </attvalues>
+      </node>
+      <node id="361" label="361">
+        <attvalues>
+          <attvalue for="0" value="Generic XML-based framework for metadata portals" />
+        </attvalues>
+      </node>
+      <node id="482" label="482">
+        <attvalues>
+          <attvalue for="0" value="IJADE eMiner - A web-based mining agent based on intelligent Java agent development environment (iJADE) on internet shopping" />
+        </attvalues>
+      </node>
+      <node id="337" label="337">
+        <attvalues>
+          <attvalue for="0" value="Relevance learning in generative topographic mapping" />
+        </attvalues>
+      </node>
+      <node id="338" label="338">
+        <attvalues>
+          <attvalue for="0" value="WordBridge: Using composite tag clouds in node-link diagrams for visualizing content and relations in text corpora" />
+        </attvalues>
+      </node>
+      <node id="471" label="471">
+        <attvalues>
+          <attvalue for="0" value="Design of a visualization agent for WWW information" />
+        </attvalues>
+      </node>
+      <node id="344" label="344">
+        <attvalues>
+          <attvalue for="0" value="An incremental space to visualize dynamic data sets" />
+        </attvalues>
+      </node>
+      <node id="345" label="345">
+        <attvalues>
+          <attvalue for="0" value="Gradient-based SOM clustering and visualisation methods" />
+        </attvalues>
+      </node>
+      <node id="400" label="400">
+        <attvalues>
+          <attvalue for="0" value="7th International Conference on Artificial Intelligent and Soft Computing - ICAISC 2004" />
+        </attvalues>
+      </node>
+      <node id="428" label="428">
+        <attvalues>
+          <attvalue for="0" value="KI 2003: Advances in Intelligence - 26th Annual German Conference on AI, KI 2003" />
+        </attvalues>
+      </node>
+      <node id="366" label="366">
+        <attvalues>
+          <attvalue for="0" value="Debugging strategies and tactics in a multi-representation software environment" />
+        </attvalues>
+      </node>
+      <node id="506" label="506">
+        <attvalues>
+          <attvalue for="0" value="Developing a geographic visualization tool to support Earth Science learning" />
+        </attvalues>
+      </node>
+      <node id="372" label="372">
+        <attvalues>
+          <attvalue for="0" value="Terminology model discovery using natural language processing and visualization techniques" />
+        </attvalues>
+      </node>
+      <node id="378" label="378">
+        <attvalues>
+          <attvalue for="0" value="Opening the black box -Data driven visualization of neural networks" />
+        </attvalues>
+      </node>
+      <node id="454" label="454">
+        <attvalues>
+          <attvalue for="0" value="Case study: Interactive visualization for internet security" />
+        </attvalues>
+      </node>
+      <node id="381" label="381">
+        <attvalues>
+          <attvalue for="0" value="Discovering parametric clusters in social small-world graphs" />
+        </attvalues>
+      </node>
+      <node id="447" label="447">
+        <attvalues>
+          <attvalue for="0" value="Proceedings of the 2002 ACM Symposium on Applied Computing" />
+        </attvalues>
+      </node>
+      <node id="470" label="470">
+        <attvalues>
+          <attvalue for="0" value="Proceedings: IEEE Symposium on Information Visualization 2001" />
+        </attvalues>
+      </node>
+      <node id="507" label="507">
+        <attvalues>
+          <attvalue for="0" value="[No title available]" />
+        </attvalues>
+      </node>
+      <node id="537" label="537">
+        <attvalues>
+          <attvalue for="0" value="Proceedings of the 1998 International Conference on Information Visualization, IV" />
+        </attvalues>
+      </node>
+      <node id="392" label="392">
+        <attvalues>
+          <attvalue for="0" value="Evaluating event visualization: A usability study of COPLINK Spatio-Temporal Visualizer" />
+        </attvalues>
+      </node>
+      <node id="502" label="502">
+        <attvalues>
+          <attvalue for="0" value="Initial examination of ease of use for 2D and 3D information visualizations of Web content" />
+        </attvalues>
+      </node>
+      <node id="527" label="527">
+        <attvalues>
+          <attvalue for="0" value="Proceedings of the 1998 IEEE Visualization Conference" />
+        </attvalues>
+      </node>
+      <node id="543" label="543">
+        <attvalues>
+          <attvalue for="0" value="Proceedings of the 1997 IEEE Symposium on Information Visualization" />
+        </attvalues>
+      </node>
+      <node id="405" label="405">
+        <attvalues>
+          <attvalue for="0" value="Discovering, visualizing, and sharing knowledge through personalized learning knowledge maps" />
+        </attvalues>
+      </node>
+      <node id="406" label="406">
+        <attvalues>
+          <attvalue for="0" value="Data analysis of microarrays using SciCraft" />
+        </attvalues>
+      </node>
+      <node id="538" label="538">
+        <attvalues>
+          <attvalue for="0" value="Information visualization on the Web" />
+        </attvalues>
+      </node>
+      <node id="420" label="420">
+        <attvalues>
+          <attvalue for="0" value="Unlocking the semantics of Roget's thesaurus using formal concept analysis" />
+        </attvalues>
+      </node>
+      <node id="422" label="422">
+        <attvalues>
+          <attvalue for="0" value="Tool support for FCA" />
+        </attvalues>
+      </node>
+      <node id="433" label="433">
+        <attvalues>
+          <attvalue for="0" value="A Visual Exploration Process for the Analysis of Internet Routing Data" />
+        </attvalues>
+      </node>
+      <node id="439" label="439">
+        <attvalues>
+          <attvalue for="0" value="Visualizations of binary data: A comparative evaluation" />
+        </attvalues>
+      </node>
+      <node id="561" label="561">
+        <attvalues>
+          <attvalue for="0" value="Illustrated analysis of sonification for scientific visualisation" />
+        </attvalues>
+      </node>
+      <node id="528" label="528">
+        <attvalues>
+          <attvalue for="0" value="Operator interaction framework for visualization systems" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="3" target="107" id="0" weight="1.7863111" />
+      <edge source="3" target="260" id="1" weight="1.685676" />
+      <edge source="3" target="266" id="2" weight="1.5676216" />
+      <edge source="3" target="336" id="3" weight="1.6260993" />
+      <edge source="3" target="349" id="4" weight="1.5656235" />
+      <edge source="3" target="468" id="5" weight="1.6709231" />
+      <edge source="3" target="498" id="6" weight="1.5295136" />
+      <edge source="3" target="545" id="7" weight="1.5184246" />
+      <edge source="107" target="136" id="8" weight="1.8700155" />
+      <edge source="260" target="336" id="9" weight="1.9637852" />
+      <edge source="260" target="349" id="10" weight="2.7344637" />
+      <edge source="260" target="367" id="11" weight="1.7741491" />
+      <edge source="260" target="455" id="12" weight="1.8745999" />
+      <edge source="260" target="532" id="13" weight="1.6270195" />
+      <edge source="266" target="411" id="14" weight="1.6158825" />
+      <edge source="266" target="468" id="15" weight="1.7902952" />
+      <edge source="266" target="498" id="16" weight="2.3633497" />
+      <edge source="336" target="267" id="17" weight="1.8208429" />
+      <edge source="336" target="349" id="18" weight="1.9277416" />
+      <edge source="349" target="267" id="19" weight="1.8687742" />
+      <edge source="349" target="344" id="20" weight="1.6372833" />
+      <edge source="468" target="318" id="21" weight="1.5757934" />
+      <edge source="4" target="262" id="22" weight="1.6133393" />
+      <edge source="4" target="356" id="23" weight="1.8180099" />
+      <edge source="262" target="37" id="24" weight="1.8192165" />
+      <edge source="262" target="133" id="25" weight="1.9578146" />
+      <edge source="262" target="356" id="26" weight="3.2252138" />
+      <edge source="356" target="37" id="27" weight="1.89632" />
+      <edge source="356" target="133" id="28" weight="2.020704" />
+      <edge source="5" target="134" id="29" weight="2.0909548" />
+      <edge source="5" target="251" id="30" weight="1.6315091" />
+      <edge source="5" target="258" id="31" weight="1.5149758" />
+      <edge source="5" target="523" id="32" weight="1.5671552" />
+      <edge source="134" target="241" id="33" weight="1.5367553" />
+      <edge source="134" target="523" id="34" weight="1.5311669" />
+      <edge source="251" target="258" id="35" weight="1.8869213" />
+      <edge source="258" target="236" id="36" weight="1.6152148" />
+      <edge source="523" target="366" id="37" weight="1.5047722" />
+      <edge source="6" target="8" id="38" weight="1.7569394" />
+      <edge source="6" target="15" id="39" weight="2.5754178" />
+      <edge source="6" target="30" id="40" weight="2.5473268" />
+      <edge source="6" target="158" id="41" weight="1.6955413" />
+      <edge source="6" target="169" id="42" weight="1.7858388" />
+      <edge source="6" target="174" id="43" weight="2.031502" />
+      <edge source="6" target="178" id="44" weight="1.7299914" />
+      <edge source="6" target="322" id="45" weight="1.7124221" />
+      <edge source="8" target="15" id="46" weight="1.6261194" />
+      <edge source="8" target="21" id="47" weight="1.5617306" />
+      <edge source="8" target="25" id="48" weight="1.8082488" />
+      <edge source="8" target="30" id="49" weight="1.8843387" />
+      <edge source="8" target="158" id="50" weight="1.6176307" />
+      <edge source="8" target="174" id="51" weight="2.20477" />
+      <edge source="8" target="286" id="52" weight="1.8160207" />
+      <edge source="15" target="30" id="53" weight="2.7596188" />
+      <edge source="15" target="169" id="54" weight="1.6786083" />
+      <edge source="15" target="178" id="55" weight="2.1014764" />
+      <edge source="30" target="25" id="56" weight="1.8951207" />
+      <edge source="30" target="86" id="57" weight="1.9087017" />
+      <edge source="30" target="158" id="58" weight="1.7267243" />
+      <edge source="30" target="169" id="59" weight="1.8482682" />
+      <edge source="30" target="174" id="60" weight="2.0920842" />
+      <edge source="30" target="178" id="61" weight="2.257226" />
+      <edge source="30" target="286" id="62" weight="1.8265228" />
+      <edge source="158" target="21" id="63" weight="2.0133357" />
+      <edge source="158" target="23" id="64" weight="1.8050667" />
+      <edge source="158" target="25" id="65" weight="1.5625542" />
+      <edge source="158" target="44" id="66" weight="2.0315123" />
+      <edge source="158" target="83" id="67" weight="1.5765668" />
+      <edge source="158" target="91" id="68" weight="1.5232503" />
+      <edge source="158" target="115" id="69" weight="2.0758617" />
+      <edge source="158" target="131" id="70" weight="1.5156665" />
+      <edge source="158" target="169" id="71" weight="1.8358417" />
+      <edge source="158" target="172" id="72" weight="1.7207557" />
+      <edge source="158" target="174" id="73" weight="1.5595756" />
+      <edge source="158" target="176" id="74" weight="1.8399003" />
+      <edge source="158" target="178" id="75" weight="1.9754981" />
+      <edge source="158" target="238" id="76" weight="1.7470684" />
+      <edge source="158" target="257" id="77" weight="2.1775384" />
+      <edge source="158" target="286" id="78" weight="1.804743" />
+      <edge source="169" target="25" id="79" weight="1.5629516" />
+      <edge source="169" target="44" id="80" weight="1.6097648" />
+      <edge source="169" target="74" id="81" weight="1.7748976" />
+      <edge source="169" target="115" id="82" weight="1.5039887" />
+      <edge source="169" target="170" id="83" weight="2.01591" />
+      <edge source="169" target="173" id="84" weight="1.6112567" />
+      <edge source="169" target="174" id="85" weight="2.3656723" />
+      <edge source="169" target="178" id="86" weight="2.271286" />
+      <edge source="169" target="205" id="87" weight="1.9105012" />
+      <edge source="169" target="231" id="88" weight="1.5434406" />
+      <edge source="169" target="257" id="89" weight="2.5300634" />
+      <edge source="174" target="12" id="90" weight="1.5835062" />
+      <edge source="174" target="20" id="91" weight="1.564261" />
+      <edge source="174" target="21" id="92" weight="1.6946884" />
+      <edge source="174" target="23" id="93" weight="1.6409568" />
+      <edge source="174" target="25" id="94" weight="2.0723443" />
+      <edge source="174" target="44" id="95" weight="2.1339037" />
+      <edge source="174" target="74" id="96" weight="1.550704" />
+      <edge source="174" target="102" id="97" weight="1.6126897" />
+      <edge source="174" target="115" id="98" weight="1.7347342" />
+      <edge source="174" target="118" id="99" weight="1.6188954" />
+      <edge source="174" target="120" id="100" weight="1.5003513" />
+      <edge source="174" target="126" id="101" weight="1.6109889" />
+      <edge source="174" target="131" id="102" weight="1.791549" />
+      <edge source="174" target="170" id="103" weight="2.3432512" />
+      <edge source="174" target="172" id="104" weight="1.8960931" />
+      <edge source="174" target="173" id="105" weight="2.2494042" />
+      <edge source="174" target="176" id="106" weight="1.7121053" />
+      <edge source="174" target="178" id="107" weight="1.5959549" />
+      <edge source="174" target="250" id="108" weight="1.7953078" />
+      <edge source="178" target="59" id="109" weight="1.7376794" />
+      <edge source="178" target="86" id="110" weight="2.188449" />
+      <edge source="178" target="170" id="111" weight="1.5731509" />
+      <edge source="178" target="172" id="112" weight="2.164796" />
+      <edge source="178" target="173" id="113" weight="1.9904575" />
+      <edge source="178" target="176" id="114" weight="1.869606" />
+      <edge source="322" target="173" id="115" weight="1.5868217" />
+      <edge source="322" target="185" id="116" weight="1.6129591" />
+      <edge source="7" target="10" id="117" weight="1.6334718" />
+      <edge source="7" target="12" id="118" weight="1.6098844" />
+      <edge source="7" target="36" id="119" weight="1.555872" />
+      <edge source="7" target="150" id="120" weight="1.6879125" />
+      <edge source="7" target="226" id="121" weight="1.6906301" />
+      <edge source="7" target="241" id="122" weight="1.5296565" />
+      <edge source="10" target="126" id="123" weight="1.5476719" />
+      <edge source="10" target="128" id="124" weight="1.8828499" />
+      <edge source="10" target="186" id="125" weight="1.5687741" />
+      <edge source="10" target="240" id="126" weight="1.9286759" />
+      <edge source="10" target="241" id="127" weight="1.5317248" />
+      <edge source="12" target="35" id="128" weight="2.0340228" />
+      <edge source="12" target="150" id="129" weight="1.8899721" />
+      <edge source="12" target="241" id="130" weight="1.7381902" />
+      <edge source="36" target="33" id="131" weight="1.6840687" />
+      <edge source="150" target="35" id="132" weight="1.7764764" />
+      <edge source="150" target="127" id="133" weight="1.6995252" />
+      <edge source="150" target="226" id="134" weight="1.5379088" />
+      <edge source="150" target="241" id="135" weight="1.6955335" />
+      <edge source="150" target="445" id="136" weight="1.5483849" />
+      <edge source="150" target="446" id="137" weight="1.9508872" />
+      <edge source="226" target="35" id="138" weight="1.5536942" />
+      <edge source="226" target="41" id="139" weight="1.6131153" />
+      <edge source="226" target="140" id="140" weight="1.7765656" />
+      <edge source="226" target="241" id="141" weight="1.8092554" />
+      <edge source="226" target="255" id="142" weight="1.6835322" />
+      <edge source="226" target="263" id="143" weight="1.6728274" />
+      <edge source="241" target="33" id="144" weight="2.1711617" />
+      <edge source="241" target="35" id="145" weight="1.5891697" />
+      <edge source="241" target="41" id="146" weight="1.6572981" />
+      <edge source="241" target="127" id="147" weight="1.5381488" />
+      <edge source="241" target="128" id="148" weight="1.6206329" />
+      <edge source="241" target="140" id="149" weight="1.9357038" />
+      <edge source="241" target="236" id="150" weight="1.5183183" />
+      <edge source="21" target="44" id="151" weight="1.7858227" />
+      <edge source="21" target="60" id="152" weight="1.679074" />
+      <edge source="21" target="180" id="153" weight="1.5820247" />
+      <edge source="21" target="250" id="154" weight="1.6842982" />
+      <edge source="21" target="540" id="155" weight="1.7825632" />
+      <edge source="25" target="173" id="156" weight="1.7556849" />
+      <edge source="25" target="286" id="157" weight="2.772691" />
+      <edge source="286" target="38" id="158" weight="1.9031463" />
+      <edge source="286" target="126" id="159" weight="1.7495291" />
+      <edge source="286" target="128" id="160" weight="1.5645084" />
+      <edge source="286" target="131" id="161" weight="1.5906912" />
+      <edge source="286" target="170" id="162" weight="1.5960987" />
+      <edge source="286" target="173" id="163" weight="1.8183106" />
+      <edge source="286" target="231" id="164" weight="1.7442983" />
+      <edge source="286" target="234" id="165" weight="1.9093194" />
+      <edge source="286" target="273" id="166" weight="1.5486493" />
+      <edge source="9" target="35" id="167" weight="1.57101" />
+      <edge source="9" target="127" id="168" weight="1.530078" />
+      <edge source="9" target="348" id="169" weight="1.5371151" />
+      <edge source="9" target="445" id="170" weight="1.6521353" />
+      <edge source="35" target="33" id="171" weight="1.5918508" />
+      <edge source="35" target="121" id="172" weight="1.6545212" />
+      <edge source="35" target="348" id="173" weight="1.5903482" />
+      <edge source="35" target="445" id="174" weight="1.6386778" />
+      <edge source="35" target="446" id="175" weight="1.5531799" />
+      <edge source="127" target="348" id="176" weight="1.5012009" />
+      <edge source="127" target="445" id="177" weight="2.0209286" />
+      <edge source="127" target="446" id="178" weight="1.6165141" />
+      <edge source="348" target="161" id="179" weight="1.6649339" />
+      <edge source="348" target="264" id="180" weight="1.5395491" />
+      <edge source="348" target="330" id="181" weight="1.7820029" />
+      <edge source="348" target="361" id="182" weight="1.5654159" />
+      <edge source="348" target="445" id="183" weight="1.6456476" />
+      <edge source="348" target="446" id="184" weight="1.7859935" />
+      <edge source="445" target="263" id="185" weight="1.5191789" />
+      <edge source="445" target="446" id="186" weight="1.9906286" />
+      <edge source="126" target="24" id="187" weight="1.5927061" />
+      <edge source="126" target="128" id="188" weight="1.6664386" />
+      <edge source="126" target="131" id="189" weight="2.7223246" />
+      <edge source="126" target="170" id="190" weight="1.6621872" />
+      <edge source="126" target="176" id="191" weight="1.7793432" />
+      <edge source="128" target="33" id="192" weight="1.5275025" />
+      <edge source="128" target="38" id="193" weight="1.5132558" />
+      <edge source="128" target="131" id="194" weight="1.8730974" />
+      <edge source="128" target="240" id="195" weight="1.5121149" />
+      <edge source="11" target="43" id="196" weight="1.5471659" />
+      <edge source="11" target="154" id="197" weight="1.590477" />
+      <edge source="43" target="121" id="198" weight="1.6164594" />
+      <edge source="154" target="282" id="199" weight="1.8151038" />
+      <edge source="13" target="84" id="200" weight="1.9774516" />
+      <edge source="13" target="97" id="201" weight="1.5822152" />
+      <edge source="13" target="100" id="202" weight="2.0652437" />
+      <edge source="13" target="239" id="203" weight="1.5147369" />
+      <edge source="13" target="271" id="204" weight="1.5654275" />
+      <edge source="13" target="287" id="205" weight="1.6263888" />
+      <edge source="13" target="308" id="206" weight="1.9310358" />
+      <edge source="13" target="316" id="207" weight="1.5131077" />
+      <edge source="84" target="17" id="208" weight="1.5608231" />
+      <edge source="84" target="97" id="209" weight="1.9733075" />
+      <edge source="100" target="59" id="210" weight="2.240351" />
+      <edge source="100" target="63" id="211" weight="2.3080978" />
+      <edge source="100" target="308" id="212" weight="2.967212" />
+      <edge source="239" target="155" id="213" weight="1.5646626" />
+      <edge source="271" target="287" id="214" weight="1.9569473" />
+      <edge source="271" target="308" id="215" weight="2.175244" />
+      <edge source="271" target="455" id="216" weight="1.5254128" />
+      <edge source="287" target="32" id="217" weight="1.8265121" />
+      <edge source="287" target="42" id="218" weight="1.6954249" />
+      <edge source="287" target="63" id="219" weight="1.7296985" />
+      <edge source="287" target="308" id="220" weight="2.0341508" />
+      <edge source="287" target="407" id="221" weight="1.7799227" />
+      <edge source="308" target="29" id="222" weight="1.9488851" />
+      <edge source="308" target="59" id="223" weight="2.1851628" />
+      <edge source="308" target="63" id="224" weight="2.3244524" />
+      <edge source="308" target="176" id="225" weight="1.5305905" />
+      <edge source="308" target="219" id="226" weight="1.5740952" />
+      <edge source="316" target="278" id="227" weight="1.5775236" />
+      <edge source="500" target="49" id="228" weight="1.6254727" />
+      <edge source="500" target="111" id="229" weight="1.790271" />
+      <edge source="500" target="246" id="230" weight="1.6436975" />
+      <edge source="500" target="561" id="231" weight="1.5536745" />
+      <edge source="20" target="44" id="232" weight="2.7321494" />
+      <edge source="20" target="62" id="233" weight="1.6092545" />
+      <edge source="20" target="205" id="234" weight="1.5299013" />
+      <edge source="44" target="62" id="235" weight="2.1782303" />
+      <edge source="44" target="86" id="236" weight="1.6415852" />
+      <edge source="44" target="115" id="237" weight="2.106789" />
+      <edge source="44" target="118" id="238" weight="1.8940527" />
+      <edge source="44" target="170" id="239" weight="1.6815693" />
+      <edge source="44" target="173" id="240" weight="1.8712668" />
+      <edge source="44" target="205" id="241" weight="2.122929" />
+      <edge source="44" target="217" id="242" weight="1.5292885" />
+      <edge source="44" target="238" id="243" weight="1.5966423" />
+      <edge source="44" target="250" id="244" weight="1.8445693" />
+      <edge source="62" target="173" id="245" weight="1.5978532" />
+      <edge source="62" target="205" id="246" weight="2.0409622" />
+      <edge source="62" target="217" id="247" weight="1.8087943" />
+      <edge source="205" target="60" id="248" weight="1.6261064" />
+      <edge source="205" target="74" id="249" weight="1.9537635" />
+      <edge source="205" target="87" id="250" weight="1.6632594" />
+      <edge source="205" target="91" id="251" weight="1.699831" />
+      <edge source="205" target="92" id="252" weight="1.6643374" />
+      <edge source="205" target="173" id="253" weight="2.2273889" />
+      <edge source="205" target="185" id="254" weight="1.914142" />
+      <edge source="205" target="187" id="255" weight="1.6857004" />
+      <edge source="60" target="277" id="256" weight="1.5592583" />
+      <edge source="180" target="145" id="257" weight="1.8658652" />
+      <edge source="250" target="115" id="258" weight="1.6267743" />
+      <edge source="250" target="118" id="259" weight="2.0433788" />
+      <edge source="250" target="173" id="260" weight="2.0783606" />
+      <edge source="250" target="227" id="261" weight="1.8937566" />
+      <edge source="250" target="231" id="262" weight="1.6664438" />
+      <edge source="250" target="234" id="263" weight="1.5408409" />
+      <edge source="250" target="253" id="264" weight="1.8750948" />
+      <edge source="540" target="249" id="265" weight="1.5325894" />
+      <edge source="540" target="275" id="266" weight="1.5655094" />
+      <edge source="22" target="91" id="267" weight="1.7248142" />
+      <edge source="22" target="216" id="268" weight="1.6569303" />
+      <edge source="22" target="277" id="269" weight="1.7176659" />
+      <edge source="22" target="306" id="270" weight="1.5362056" />
+      <edge source="22" target="546" id="271" weight="1.9213123" />
+      <edge source="91" target="238" id="272" weight="1.6018577" />
+      <edge source="216" target="63" id="273" weight="1.809504" />
+      <edge source="216" target="173" id="274" weight="1.5515034" />
+      <edge source="277" target="306" id="275" weight="1.5156428" />
+      <edge source="306" target="143" id="276" weight="1.5523064" />
+      <edge source="306" target="291" id="277" weight="1.6910226" />
+      <edge source="546" target="167" id="278" weight="1.5873522" />
+      <edge source="546" target="259" id="279" weight="1.543602" />
+      <edge source="23" target="86" id="280" weight="1.6271483" />
+      <edge source="23" target="98" id="281" weight="1.8290615" />
+      <edge source="23" target="131" id="282" weight="1.7756081" />
+      <edge source="23" target="269" id="283" weight="1.9222404" />
+      <edge source="86" target="59" id="284" weight="1.9756243" />
+      <edge source="98" target="79" id="285" weight="1.5897295" />
+      <edge source="98" target="87" id="286" weight="1.6782999" />
+      <edge source="98" target="89" id="287" weight="1.597217" />
+      <edge source="98" target="189" id="288" weight="1.6115197" />
+      <edge source="98" target="207" id="289" weight="1.51771" />
+      <edge source="131" target="24" id="290" weight="1.5524151" />
+      <edge source="131" target="29" id="291" weight="1.5172474" />
+      <edge source="131" target="170" id="292" weight="1.6097351" />
+      <edge source="131" target="172" id="293" weight="1.6598313" />
+      <edge source="131" target="176" id="294" weight="2.2113254" />
+      <edge source="269" target="184" id="295" weight="1.6076034" />
+      <edge source="269" target="185" id="296" weight="2.0103793" />
+      <edge source="269" target="189" id="297" weight="1.7188616" />
+      <edge source="24" target="172" id="298" weight="1.565828" />
+      <edge source="24" target="282" id="299" weight="2.0300126" />
+      <edge source="24" target="298" id="300" weight="1.5250822" />
+      <edge source="24" target="299" id="301" weight="1.5257841" />
+      <edge source="24" target="317" id="302" weight="1.5842282" />
+      <edge source="24" target="320" id="303" weight="1.5779718" />
+      <edge source="172" target="120" id="304" weight="1.6100855" />
+      <edge source="172" target="173" id="305" weight="1.5531173" />
+      <edge source="172" target="176" id="306" weight="2.3707082" />
+      <edge source="172" target="234" id="307" weight="1.5679799" />
+      <edge source="172" target="257" id="308" weight="1.5841912" />
+      <edge source="172" target="320" id="309" weight="1.9711803" />
+      <edge source="282" target="229" id="310" weight="1.7873852" />
+      <edge source="298" target="117" id="311" weight="1.6904336" />
+      <edge source="299" target="291" id="312" weight="1.8270878" />
+      <edge source="317" target="61" id="313" weight="1.689077" />
+      <edge source="317" target="291" id="314" weight="1.6641016" />
+      <edge source="317" target="307" id="315" weight="1.5678304" />
+      <edge source="320" target="59" id="316" weight="1.6805826" />
+      <edge source="320" target="176" id="317" weight="1.597155" />
+      <edge source="320" target="291" id="318" weight="1.6163566" />
+      <edge source="320" target="318" id="319" weight="1.893966" />
+      <edge source="173" target="102" id="320" weight="1.6330209" />
+      <edge source="28" target="53" id="321" weight="1.518821" />
+      <edge source="28" target="54" id="322" weight="1.5948209" />
+      <edge source="28" target="79" id="323" weight="1.7366849" />
+      <edge source="28" target="89" id="324" weight="1.8833966" />
+      <edge source="28" target="95" id="325" weight="1.7663835" />
+      <edge source="28" target="96" id="326" weight="2.1683297" />
+      <edge source="28" target="218" id="327" weight="1.5221236" />
+      <edge source="53" target="93" id="328" weight="1.6214921" />
+      <edge source="54" target="81" id="329" weight="1.5703748" />
+      <edge source="54" target="87" id="330" weight="1.5520895" />
+      <edge source="54" target="89" id="331" weight="1.8473859" />
+      <edge source="54" target="95" id="332" weight="1.5869489" />
+      <edge source="54" target="96" id="333" weight="1.7054547" />
+      <edge source="54" target="204" id="334" weight="1.554349" />
+      <edge source="79" target="89" id="335" weight="1.9179995" />
+      <edge source="79" target="93" id="336" weight="1.8651268" />
+      <edge source="79" target="96" id="337" weight="1.700523" />
+      <edge source="79" target="204" id="338" weight="1.871443" />
+      <edge source="79" target="218" id="339" weight="1.6887761" />
+      <edge source="79" target="389" id="340" weight="1.7109325" />
+      <edge source="79" target="469" id="341" weight="1.5206875" />
+      <edge source="89" target="78" id="342" weight="1.8238547" />
+      <edge source="89" target="81" id="343" weight="1.909954" />
+      <edge source="89" target="82" id="344" weight="1.8892287" />
+      <edge source="89" target="95" id="345" weight="1.9623772" />
+      <edge source="89" target="96" id="346" weight="2.1058185" />
+      <edge source="89" target="204" id="347" weight="2.3233879" />
+      <edge source="89" target="217" id="348" weight="1.5377719" />
+      <edge source="95" target="78" id="349" weight="2.0011659" />
+      <edge source="95" target="81" id="350" weight="1.7852439" />
+      <edge source="95" target="96" id="351" weight="1.8092738" />
+      <edge source="95" target="189" id="352" weight="1.7124103" />
+      <edge source="95" target="190" id="353" weight="1.5840667" />
+      <edge source="95" target="204" id="354" weight="2.084025" />
+      <edge source="95" target="296" id="355" weight="1.5859553" />
+      <edge source="96" target="81" id="356" weight="1.6135399" />
+      <edge source="218" target="68" id="357" weight="1.7338734" />
+      <edge source="218" target="93" id="358" weight="1.5447272" />
+      <edge source="218" target="187" id="359" weight="1.5674196" />
+      <edge source="218" target="424" id="360" weight="1.6964768" />
+      <edge source="29" target="176" id="361" weight="1.6543323" />
+      <edge source="176" target="170" id="362" weight="1.5631751" />
+      <edge source="32" target="367" id="363" weight="1.5658633" />
+      <edge source="32" target="390" id="364" weight="1.5760678" />
+      <edge source="32" target="407" id="365" weight="1.519113" />
+      <edge source="32" target="455" id="366" weight="1.5203793" />
+      <edge source="367" target="39" id="367" weight="1.784618" />
+      <edge source="367" target="389" id="368" weight="2.3143868" />
+      <edge source="367" target="419" id="369" weight="2.1956806" />
+      <edge source="367" target="455" id="370" weight="1.7998066" />
+      <edge source="390" target="419" id="371" weight="1.9044698" />
+      <edge source="390" target="469" id="372" weight="1.9528626" />
+      <edge source="407" target="42" id="373" weight="1.5054" />
+      <edge source="407" target="318" id="374" weight="1.6093618" />
+      <edge source="407" target="455" id="375" weight="1.5578374" />
+      <edge source="455" target="39" id="376" weight="1.8040954" />
+      <edge source="455" target="439" id="377" weight="1.632602" />
+      <edge source="33" target="140" id="378" weight="1.7015668" />
+      <edge source="140" target="161" id="379" weight="1.5049571" />
+      <edge source="121" target="196" id="380" weight="1.5624585" />
+      <edge source="121" target="257" id="381" weight="2.494398" />
+      <edge source="446" target="155" id="382" weight="1.782938" />
+      <edge source="37" target="224" id="383" weight="2.3823607" />
+      <edge source="37" target="451" id="384" weight="2.3823607" />
+      <edge source="224" target="133" id="385" weight="1.5933539" />
+      <edge source="224" target="143" id="386" weight="1.6858529" />
+      <edge source="224" target="451" id="387" weight="18.350178" />
+      <edge source="451" target="133" id="388" weight="1.5933539" />
+      <edge source="451" target="143" id="389" weight="1.6858529" />
+      <edge source="451" target="246" id="390" weight="1.7040336" />
+      <edge source="451" target="335" id="391" weight="1.9790272" />
+      <edge source="451" target="372" id="392" weight="1.6461473" />
+      <edge source="451" target="396" id="393" weight="1.640962" />
+      <edge source="451" target="420" id="394" weight="1.8825288" />
+      <edge source="451" target="422" id="395" weight="3.3828344" />
+      <edge source="38" target="231" id="396" weight="1.6391059" />
+      <edge source="38" target="273" id="397" weight="1.7502917" />
+      <edge source="231" target="161" id="398" weight="1.7662002" />
+      <edge source="231" target="170" id="399" weight="1.5740132" />
+      <edge source="231" target="234" id="400" weight="2.0120676" />
+      <edge source="231" target="257" id="401" weight="1.9556412" />
+      <edge source="231" target="273" id="402" weight="1.7843612" />
+      <edge source="39" target="419" id="403" weight="1.7405076" />
+      <edge source="419" target="366" id="404" weight="1.6353892" />
+      <edge source="419" target="389" id="405" weight="2.4938436" />
+      <edge source="419" target="469" id="406" weight="1.6984015" />
+      <edge source="41" target="255" id="407" weight="1.5727377" />
+      <edge source="41" target="314" id="408" weight="1.603097" />
+      <edge source="255" target="263" id="409" weight="1.5403144" />
+      <edge source="314" target="114" id="410" weight="1.5458355" />
+      <edge source="314" target="525" id="411" weight="2.0185134" />
+      <edge source="115" target="170" id="412" weight="1.7695847" />
+      <edge source="115" target="227" id="413" weight="1.6569359" />
+      <edge source="115" target="257" id="414" weight="2.0556197" />
+      <edge source="118" target="237" id="415" weight="1.519669" />
+      <edge source="118" target="253" id="416" weight="1.5707537" />
+      <edge source="170" target="257" id="417" weight="2.0827878" />
+      <edge source="217" target="92" id="418" weight="1.7849917" />
+      <edge source="217" target="99" id="419" weight="2.0134995" />
+      <edge source="217" target="103" id="420" weight="1.5803436" />
+      <edge source="217" target="130" id="421" weight="2.0599985" />
+      <edge source="217" target="181" id="422" weight="1.5009359" />
+      <edge source="217" target="189" id="423" weight="1.5836002" />
+      <edge source="217" target="208" id="424" weight="1.7308258" />
+      <edge source="238" target="83" id="425" weight="1.895253" />
+      <edge source="238" target="257" id="426" weight="2.0177321" />
+      <edge source="45" target="525" id="427" weight="1.7086349" />
+      <edge source="525" target="133" id="428" weight="1.5256184" />
+      <edge source="525" target="281" id="429" weight="1.5589404" />
+      <edge source="525" target="361" id="430" weight="1.7730387" />
+      <edge source="525" target="406" id="431" weight="2.1408927" />
+      <edge source="525" target="538" id="432" weight="1.5837775" />
+      <edge source="114" target="281" id="433" weight="1.754321" />
+      <edge source="49" target="230" id="434" weight="1.8031031" />
+      <edge source="230" target="130" id="435" weight="1.5442555" />
+      <edge source="230" target="136" id="436" weight="1.9732333" />
+      <edge source="230" target="168" id="437" weight="1.9936036" />
+      <edge source="93" target="68" id="438" weight="1.9125313" />
+      <edge source="93" target="190" id="439" weight="1.5199516" />
+      <edge source="81" target="204" id="440" weight="1.6326337" />
+      <edge source="87" target="189" id="441" weight="1.5435869" />
+      <edge source="204" target="78" id="442" weight="1.7659705" />
+      <edge source="204" target="80" id="443" weight="1.5318996" />
+      <edge source="204" target="82" id="444" weight="1.6206671" />
+      <edge source="204" target="99" id="445" weight="1.5552977" />
+      <edge source="204" target="130" id="446" weight="1.5381147" />
+      <edge source="204" target="132" id="447" weight="1.5102991" />
+      <edge source="204" target="189" id="448" weight="2.050579" />
+      <edge source="204" target="207" id="449" weight="1.7068796" />
+      <edge source="57" target="58" id="450" weight="1.5466967" />
+      <edge source="57" target="212" id="451" weight="1.5364625" />
+      <edge source="57" target="219" id="452" weight="1.8385488" />
+      <edge source="57" target="284" id="453" weight="1.6189433" />
+      <edge source="57" target="324" id="454" weight="1.8593316" />
+      <edge source="58" target="61" id="455" weight="1.7187515" />
+      <edge source="58" target="212" id="456" weight="1.7084374" />
+      <edge source="58" target="324" id="457" weight="1.5187087" />
+      <edge source="212" target="61" id="458" weight="1.5730001" />
+      <edge source="219" target="83" id="459" weight="1.7186913" />
+      <edge source="219" target="182" id="460" weight="1.6109846" />
+      <edge source="219" target="215" id="461" weight="1.6190479" />
+      <edge source="219" target="284" id="462" weight="1.5172218" />
+      <edge source="219" target="324" id="463" weight="2.4853156" />
+      <edge source="284" target="324" id="464" weight="2.0156524" />
+      <edge source="324" target="182" id="465" weight="1.6668617" />
+      <edge source="324" target="291" id="466" weight="1.7606778" />
+      <edge source="324" target="294" id="467" weight="1.6548405" />
+      <edge source="324" target="310" id="468" weight="1.7148842" />
+      <edge source="324" target="318" id="469" weight="1.5071858" />
+      <edge source="61" target="307" id="470" weight="1.6141716" />
+      <edge source="63" target="214" id="471" weight="1.5006562" />
+      <edge source="63" target="221" id="472" weight="1.5768478" />
+      <edge source="63" target="288" id="473" weight="1.8016075" />
+      <edge source="214" target="207" id="474" weight="1.6143864" />
+      <edge source="288" target="259" id="475" weight="1.9110523" />
+      <edge source="288" target="278" id="476" weight="1.5287108" />
+      <edge source="74" target="185" id="477" weight="1.5457841" />
+      <edge source="185" target="207" id="478" weight="1.597031" />
+      <edge source="185" target="257" id="479" weight="1.5577322" />
+      <edge source="78" target="82" id="480" weight="1.9626026" />
+      <edge source="389" target="366" id="481" weight="1.7470279" />
+      <edge source="469" target="125" id="482" weight="1.6412622" />
+      <edge source="469" target="439" id="483" weight="1.6515296" />
+      <edge source="80" target="189" id="484" weight="1.7766143" />
+      <edge source="80" target="207" id="485" weight="1.7125154" />
+      <edge source="189" target="207" id="486" weight="2.2133038" />
+      <edge source="207" target="181" id="487" weight="1.5889511" />
+      <edge source="207" target="192" id="488" weight="1.6699024" />
+      <edge source="83" target="182" id="489" weight="1.5399405" />
+      <edge source="83" target="215" id="490" weight="1.6199508" />
+      <edge source="83" target="257" id="491" weight="1.7031653" />
+      <edge source="257" target="161" id="492" weight="1.6415453" />
+      <edge source="257" target="184" id="493" weight="1.8789747" />
+      <edge source="257" target="234" id="494" weight="1.7977376" />
+      <edge source="92" target="103" id="495" weight="1.857383" />
+      <edge source="92" target="208" id="496" weight="1.7885735" />
+      <edge source="92" target="209" id="497" weight="1.6732534" />
+      <edge source="208" target="194" id="498" weight="1.8197011" />
+      <edge source="209" target="194" id="499" weight="1.6035601" />
+      <edge source="296" target="125" id="500" weight="1.5268934" />
+      <edge source="296" target="252" id="501" weight="1.5484048" />
+      <edge source="99" target="102" id="502" weight="1.537381" />
+      <edge source="227" target="145" id="503" weight="1.5176513" />
+      <edge source="227" target="234" id="504" weight="1.6512312" />
+      <edge source="227" target="253" id="505" weight="2.1179523" />
+      <edge source="227" target="275" id="506" weight="1.6671165" />
+      <edge source="117" target="559" id="507" weight="1.5300716" />
+      <edge source="559" target="400" id="508" weight="1.7047038" />
+      <edge source="559" target="447" id="509" weight="3.669376" />
+      <edge source="559" target="470" id="510" weight="3.8510628" />
+      <edge source="559" target="507" id="511" weight="3.033911" />
+      <edge source="559" target="527" id="512" weight="2.5176957" />
+      <edge source="559" target="537" id="513" weight="2.813044" />
+      <edge source="237" target="120" id="514" weight="1.5778444" />
+      <edge source="196" target="184" id="515" weight="2.083092" />
+      <edge source="196" target="195" id="516" weight="2.4353597" />
+      <edge source="123" target="442" id="517" weight="1.827542" />
+      <edge source="123" target="494" id="518" weight="1.6810304" />
+      <edge source="442" target="177" id="519" weight="1.5059652" />
+      <edge source="442" target="338" id="520" weight="1.6579689" />
+      <edge source="494" target="267" id="521" weight="1.5583686" />
+      <edge source="494" target="471" id="522" weight="1.6547153" />
+      <edge source="125" target="252" id="523" weight="1.568998" />
+      <edge source="252" target="130" id="524" weight="1.6771159" />
+      <edge source="252" target="424" id="525" weight="1.6987557" />
+      <edge source="130" target="181" id="526" weight="1.5916703" />
+      <edge source="181" target="132" id="527" weight="1.5347738" />
+      <edge source="181" target="148" id="528" weight="1.6239905" />
+      <edge source="161" target="234" id="529" weight="2.1118298" />
+      <edge source="145" target="148" id="530" weight="1.5546007" />
+      <edge source="145" target="168" id="531" weight="1.5953336" />
+      <edge source="145" target="192" id="532" weight="1.5702307" />
+      <edge source="145" target="234" id="533" weight="1.5085334" />
+      <edge source="145" target="394" id="534" weight="1.8086802" />
+      <edge source="168" target="394" id="535" weight="1.7233872" />
+      <edge source="234" target="160" id="536" weight="1.5564678" />
+      <edge source="394" target="249" id="537" weight="1.5603962" />
+      <edge source="146" target="159" id="538" weight="1.6855794" />
+      <edge source="159" target="272" id="539" weight="1.5618843" />
+      <edge source="159" target="292" id="540" weight="1.6061658" />
+      <edge source="159" target="346" id="541" weight="1.9842708" />
+      <edge source="272" target="292" id="542" weight="1.7478158" />
+      <edge source="272" target="346" id="543" weight="1.6027282" />
+      <edge source="272" target="351" id="544" weight="1.6556996" />
+      <edge source="292" target="261" id="545" weight="1.5458649" />
+      <edge source="346" target="163" id="546" weight="1.6303489" />
+      <edge source="346" target="261" id="547" weight="1.5548213" />
+      <edge source="346" target="337" id="548" weight="1.5998269" />
+      <edge source="346" target="345" id="549" weight="1.5197055" />
+      <edge source="163" target="395" id="550" weight="1.5117462" />
+      <edge source="395" target="345" id="551" weight="1.556754" />
+      <edge source="167" target="249" id="552" weight="1.5152893" />
+      <edge source="167" target="386" id="553" weight="1.549869" />
+      <edge source="167" target="544" id="554" weight="1.5681323" />
+      <edge source="249" target="236" id="555" weight="1.619958" />
+      <edge source="386" target="259" id="556" weight="1.6424395" />
+      <edge source="386" target="569" id="557" weight="1.6980193" />
+      <edge source="544" target="528" id="558" weight="1.703532" />
+      <edge source="544" target="561" id="559" weight="1.7598695" />
+      <edge source="177" target="396" id="560" weight="1.5544493" />
+      <edge source="177" target="411" id="561" weight="1.5665638" />
+      <edge source="396" target="351" id="562" weight="1.5647912" />
+      <edge source="184" target="195" id="563" weight="1.6941867" />
+      <edge source="187" target="424" id="564" weight="1.6527237" />
+      <edge source="424" target="405" id="565" weight="1.7315148" />
+      <edge source="263" target="264" id="566" weight="1.5636023" />
+      <edge source="259" target="270" id="567" weight="1.5164944" />
+      <edge source="270" target="569" id="568" weight="1.5866046" />
+      <edge source="532" target="267" id="569" weight="1.5424399" />
+      <edge source="532" target="547" id="570" weight="1.5041738" />
+      <edge source="264" target="335" id="571" weight="1.5246816" />
+      <edge source="267" target="547" id="572" weight="1.6049737" />
+      <edge source="569" target="318" id="573" weight="1.551746" />
+      <edge source="351" target="337" id="574" weight="1.651866" />
+      <edge source="351" target="345" id="575" weight="1.5069815" />
+      <edge source="291" target="304" id="576" weight="1.5015482" />
+      <edge source="294" target="310" id="577" weight="1.5368285" />
+      <edge source="330" target="361" id="578" weight="1.6668398" />
+      <edge source="330" target="482" id="579" weight="1.5125941" />
+      <edge source="482" target="405" id="580" weight="1.6415817" />
+      <edge source="338" target="471" id="581" weight="1.5299608" />
+      <edge source="345" target="400" id="582" weight="1.864513" />
+      <edge source="345" target="428" id="583" weight="1.554688" />
+      <edge source="400" target="381" id="584" weight="1.538743" />
+      <edge source="400" target="428" id="585" weight="2.6670446" />
+      <edge source="400" target="447" id="586" weight="2.4930785" />
+      <edge source="400" target="470" id="587" weight="2.1732912" />
+      <edge source="400" target="507" id="588" weight="2.1694238" />
+      <edge source="400" target="527" id="589" weight="2.1082923" />
+      <edge source="400" target="537" id="590" weight="2.6077778" />
+      <edge source="400" target="543" id="591" weight="2.3037136" />
+      <edge source="428" target="447" id="592" weight="1.6197394" />
+      <edge source="428" target="470" id="593" weight="1.9124017" />
+      <edge source="428" target="507" id="594" weight="1.5576392" />
+      <edge source="428" target="537" id="595" weight="1.9782829" />
+      <edge source="366" target="506" id="596" weight="1.7049528" />
+      <edge source="506" target="392" id="597" weight="1.5374851" />
+      <edge source="506" target="439" id="598" weight="1.5884684" />
+      <edge source="506" target="502" id="599" weight="1.5147201" />
+      <edge source="378" target="454" id="600" weight="1.5248846" />
+      <edge source="454" target="433" id="601" weight="2.17649" />
+      <edge source="381" target="447" id="602" weight="1.5398505" />
+      <edge source="381" target="470" id="603" weight="1.772504" />
+      <edge source="381" target="507" id="604" weight="1.9413754" />
+      <edge source="381" target="537" id="605" weight="1.7374065" />
+      <edge source="447" target="470" id="606" weight="2.6131406" />
+      <edge source="447" target="507" id="607" weight="2.0229778" />
+      <edge source="447" target="537" id="608" weight="2.4870055" />
+      <edge source="470" target="507" id="609" weight="3.334576" />
+      <edge source="470" target="527" id="610" weight="2.2337449" />
+      <edge source="470" target="537" id="611" weight="2.1537902" />
+      <edge source="507" target="527" id="612" weight="2.5350091" />
+      <edge source="507" target="537" id="613" weight="2.4295907" />
+      <edge source="507" target="543" id="614" weight="2.0112884" />
+      <edge source="537" target="527" id="615" weight="3.4545152" />
+      <edge source="537" target="543" id="616" weight="2.5359566" />
+      <edge source="392" target="502" id="617" weight="1.606454" />
+      <edge source="527" target="543" id="618" weight="2.7369726" />
+      <edge source="543" target="528" id="619" weight="1.5172129" />
+      <edge source="406" target="538" id="620" weight="1.570848" />
+      <edge source="420" target="422" id="621" weight="1.5689238" />
+    </edges>
+  </graph>
+</gexf>

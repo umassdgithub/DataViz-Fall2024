@@ -6,7 +6,10 @@ function scatter_plot(data,
                                  rCol="",
                                  legend=[],
                                  colorCol="",
-                                 margin = 50)
+                                 margin = 50,
+                                selected_items=[]
+
+)
 {
 
 
@@ -143,7 +146,7 @@ function scatter_plot(data,
         let Y1 = yScale.invert(selected_coordinates[0][1])
         let Y2 = yScale.invert(selected_coordinates[1][1])
 
-        let selected_items = []
+
 
         // let us select elements that are between the brush area
         d3.selectAll("circle").classed("selected", (d,i)=>
@@ -161,7 +164,7 @@ function scatter_plot(data,
                 return false
             }
         })
-        console.log(selected_items)
+
     }
 
     function brushStart() {
@@ -170,6 +173,8 @@ function scatter_plot(data,
             d3.selectAll(".markers").classed("selected",false)
         }
     }
+
+
 
 
 }

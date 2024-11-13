@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Make Force Layout</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="network.js"></script>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text-center{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        circle{
+            
+            fill-opacity: .9;
+        }
+        line{
+            stroke:#909090;
+            stroke-opacity:0.6;
+        }
+        .label{
+            font-weight: normal;
+            font-size: 2px;
+        }
+        .invisible{
+            display: none;
+        }
+
+    </style>
+    <link rel="stylesheet" href="styles/vc-toggle-switch.css">
+</head>
+<body>
+<div class="container">
+    <div class="title"><h1>Network of Related Movies (IMDB Database)</h1></div>
+    <div class="control">
+        <div class="text-center">
+            <div class="text-center d-inline-block">
+                <span class="m-3 p-2 badge badge-dark"><h2>Show Posters</h2></span>
+                <div class="vc-toggle-container">
+                    <label class="vc-switch">
+                        <input type="checkbox" class="vc-switch-input" id="posters"/>
+                        <span class="vc-switch-label" data-on="Yes" data-off="No"></span>
+                        <span class="vc-handle"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="canvas"></div>
+</div>
+<script>
+    d3.json("output.json").then((data)=>{
+        const checkbox = document.querySelector("#posters")
+
+        let svg = d3.select('.canvas')
+            .append("svg")
+            .attr("width","1000")
+            .attr("height","800")
+            .attr("viewBox","0 0 1000 800")
+        simulate(data,svg)
+        d3.selectAll(".images").classed("invisible",true)
+        checkbox.addEventListener("change",()=>{
+            if (checkbox.checked) {
+                d3.selectAll(".images").classed("invisible",false)
+            } else {
+                d3.selectAll(".images").classed("invisible",true)
+            }
+        })
+    })
+</script>
+
+</body>
+</html>
