@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Histogram with Static Distribution and Bin Count Slider</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .bar {
+            fill: steelblue;
+        }
+        .bar:hover {
+            fill: orange;
+        }
+        .axis-label {
+            font-size: 12px;
+            text-anchor: middle;
+        }
+        .axis path,
+        .axis line {
+            shape-rendering: crispEdges;
+        }
+        #bin-count-value {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+<label for="distribution">Select Distribution:</label>
+<select id="distribution">
+    <option value="uniform">Uniform Distribution</option>
+    <option value="normal">Normal Distribution</option>
+    <option value="logNormal">Log-Normal Distribution</option>
+    <option value="exponential">Exponential Distribution</option>
+</select>
+<br><br>
+<label for="bin-count">Bin Count: </label>
+<input type="range" id="bin-count" min="5" max="30" value="10" step="1">
+<span id="bin-count-value">10</span>
+<br><br>
+<svg width="500" height="300"></svg>
+<script>
+    // Function to generate different types of datasets using D3.js distribution functions
+    function generateData(distributionType) {
+        const data = [];
+        const n = 100; // number of data points
+
+        if (distributionType === "uniform") {
+            const randomUniform = d3.randomUniform(0, 100);
+            for (let i = 0; i < n; i++) {
+                data.push(randomUniform());
+            }
+        } else if (distributionType === "normal") {
+            const randomNormal = d3.randomNormal(50, 10);  // Mean = 50, Std. dev = 10
+            for (let i = 0; i < n; i++) {
+                data.push(randomNormal());
+            }
+        } else if (distributionType === "logNormal") {
+            const randomLogNormal = d3.randomLogNormal(0, 1);  // Mean = 0, Std. dev = 1
+            for (let i = 0; i < n; i++) {
+                data.push(randomLogNormal());
+            }
+        } else if (distributionType === "exponential") {
+            const randomExponential = d3.randomExponential(10);  // Lambda = 1/10
+            for (let i = 0; i < n; i++) {
+                data.push(randomExponential());
+            }
+        }
+        return data;
+    }
+
+    // Set up margins and dimensions for the chart
+    const margin = { top: 20, right: 30, bottom: 40, left: 40 };
+    const width = 500 - margin.left - margin.right;
+    const height = 300 - margin.top - margin.bottom;
+
+    // Set up the SVG container
+    const svg = d3.select('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    // Set up the x and y scales
+    const x = d3.scaleLinear()
+        .domain([0, 100])
+        .range([0, width]);
+
+    const y = d3.scaleLinear()
+        .domain([0, 10])  // Adjust based on the distribution
+        .range([height, 0]);
+
+    // Set up the histogram (will be updated dynamically)
+    const histogram = d3.histogram()
+        .domain([0, 100]);
+
+    let data = [];  // This will hold the generated data
+    let binCount = 10;  // Default bin count
+
+    // Function to update the histogram
+    function updateHistogram() {
+        // Apply the histogram function to the data
+        const bins = histogram.thresholds(binCount)(data);
+
+        // Bind data to bars
+        const bars = svg.selectAll(".bar")
+            .data(bins);
+
+        // Remove old bars
+        bars.exit().remove();
+
+        // Append new bars
+        bars.enter().append("rect")
+            .attr("class", "bar")
+            .merge(bars)  // Merge new bars with existing ones
+            .attr("x", d => x(d.x0))
+            .attr("y", d => y(d.length))
+            .attr("width", d => x(d.x1) - x(d.x0) - 1)
+            .attr("height", d => height - y(d.length));
+
+        // Update the y axis domain based on data
+        y.domain([0, d3.max(bins, d => d.length)]);
+
+        // Update axes
+        svg.select(".x.axis").call(d3.axisBottom(x).ticks(10).tickFormat(d3.format('d')));
+        svg.select(".y.axis").call(d3.axisLeft(y).ticks(5));
+    }
+
+    // Add the x axis
+    svg.append('g')
+        .attr('class', 'x axis')
+        .attr('transform', `translate(0,${height})`)
+        .call(d3.axisBottom(x).ticks(10).tickFormat(d3.format('d')))
+        .selectAll('.tick text')
+        .attr('class', 'axis-label');
+
+    // Add the y axis
+    svg.append('g')
+        .attr('class', 'y axis')
+        .call(d3.axisLeft(y).ticks(5))
+        .selectAll('.tick text')
+        .attr('class', 'axis-label');
+
+    // Event listener for the distribution dropdown
+    document.getElementById("distribution").addEventListener("change", function () {
+        const selectedDistribution = this.value;
+        data = generateData(selectedDistribution); // Generate the data only once when the distribution is changed
+        updateHistogram();  // Update the histogram with the new data
+    });
+
+    // Event listener for the bin count slider
+    document.getElementById("bin-count").addEventListener("input", function () {
+        binCount = parseInt(this.value, 10); // Get the bin count from the slider
+        document.getElementById("bin-count-value").textContent = binCount; // Display the bin count
+        updateHistogram();  // Update the histogram with the selected bin count
+    });
+
+    // Initialize the histogram with the default distribution
+    const initialDistribution = document.getElementById("distribution").value;
+    data = generateData(initialDistribution);
+    updateHistogram(); // Initial update with the selected distribution and bin count
+</script>
+</body>
+</html>
