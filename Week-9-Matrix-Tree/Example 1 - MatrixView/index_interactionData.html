@@ -44,9 +44,27 @@
             font-family: sans-serif;
             font-size: 8pt;
         }
+        .tooltip {
+
+            position: absolute;
+            background: rgba(240, 240, 240, 0.9);
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 12px;
+            font-family: sans-serif;
+            color: #333;
+            text-align: center;
+            pointer-events: none;
+            z-index: 1000;
+            width: auto;
+            max-width: 200px;
+        }
     </style>
 </head>
 <body>
+<div class="tooltip"></div>
 <div class="title">
     Migrations from State to State
 </div>
@@ -76,6 +94,7 @@
     /*          Data loading and Processing                       */
     ////////////////////////////////////////////////////////////////
     d3.csv("./data/State_to_State_Migrations_Table_2019.csv").then(data=>{
+        console.log(data)
         ///  group the data elements by the destination of the migrants
         const state_groups = d3.group(data,d=>d.Destination); // group will return keys of destination,and values of sources
 
@@ -87,13 +106,14 @@
                                             d3.extent( // d3.extent get the min max of each group
                                                 Object.keys(d).slice(1)// the first columns is the name of destinations, so drop it
                                                     .map(
-                                                        v=> +d[v].toString().replace(",","")
-
+                                                        v=> {
+                                                            return +d[v].toString().replace(",","")
+                                                        }
                                                     )
                                             )
                                     ).flat() // the list of min maxes for each row is converted to on flat array
                                 )
-        const Normalizer=d3.d3.scaleSqrt()
+        const Normalizer=d3.scaleSqrt()
             .domain(min_max)
 
         /// Spacing and size of the rectangle
@@ -180,6 +200,8 @@
                 d3.selectAll(`.row_${row}`).classed("semiActive",true);
                 // find objects on the same row
                 currentObject.classed("semiActive",false).classed("active",true)
+
+                d3.select(".tooltip").style("left",d.clientX+20+"px").style("top",d.clientY+20+"px").text(`${m.value}`)
             }
             function mouseLeave(m,d){
                 const currentObject = d3.select(`#${this.id}`)

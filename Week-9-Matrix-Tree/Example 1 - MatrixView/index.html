@@ -45,12 +45,12 @@
                 d3.extent( // d3.extent get the min max of each group
                     Object.keys(d).slice(1)// the first columns is the name of destinations, so drop it
                         .map(
-                            v=>isNaN(+d[v])?0:+d[v] // there are nan values which indicate no migration, so replace it with zero
+                            v=>+d[v].toString().replace(",","")
                         )
                 )
             ).flat() // the list of min maxes for each row is converted to on flat array
         )
-        const Normalizer=d3.scaleLinear()
+        const Normalizer=d3.scaleSqrt()
             .domain(min_max)
 
         ////////////////////////////////////////////////////////////////
@@ -88,7 +88,7 @@
                 .join('g')
                 .attr("transform",(d,i)=>`translate(${0},${i*(rectDim+spacing)})`)
                 .attr("class","target").selectAll('sources')
-                .data(d=> Object.values(d[1][0]).slice(1).map(d=>isNaN(d)?0:+d))
+                .data(d=> Object.values(d[1][0]).slice(1).map(d=>+d.toString().replace(",","")))
                 .join("g")
                 .attr("transform",(d,i)=>`translate(${i*(rectDim+spacing)},${0})`)
                 .append("rect")
