@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Glyph</title>
+    <script src="../bin/d3.js"></script>
+
+    <style>
+        /* Apply flexbox to center everything */
+        body {
+            font-family: sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* Center the title and description */
+        .content {
+            margin-bottom: 20px;
+        }
+
+        /* Ensure the SVG fits well within the layout */
+        svg {
+            width: 90vw;
+            height: 80vh;
+            border: 1px solid #ccc; /* Optional: Adds a border to the SVG */
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+<div class="content">
+    <h1>Earth's Cell-Based Temperature Visualization</h1>
+    <p>This visualization shows the temperature distribution across Earth's grid cells based on longitude and latitude data.</p>
+</div>
+<svg viewBox="0 0 1000 800">
+
+    <!-- <polyline points="10,10 10,90 90,90" stroke="black" fill="none"/> -->
+</svg>
+<script>
+
+    const margin = 50;
+    const width = 1000
+    const height = 600
+
+    d3.json("../data/windData.json")
+        .then(data=>{
+        const base = d3.select("svg")
+        const lonData = data['lon'];
+        const latData = data['lat'];
+        const temperature = [];
+        let tempArr= data['temperature'].map(d=>+d)
+        while(tempArr.length) temperature.push(tempArr.splice(0,lonData.length));
+        tempArr= data['temperature'].map(d=>+d)
+
+        const latScale = d3.scaleLinear()
+            .domain(d3.extent(latData,d=>+d))
+            .range([height-margin, margin])
+
+        const lonScale = d3.scaleLinear()
+            .domain(d3.extent(lonData,d=>+d))
+            .range([margin,width-margin])
+
+        const tempScale = d3.scaleLinear()
+                .domain(d3.extent(tempArr ,d=>+d))
+    const locations = d3.select("svg");
+
+    for(let i=0;i<lonData.length;i+=2) {
+        for(let j=0; j < latData.length; j+=2) {
+            locations
+                .append("g").attr("transform",
+                `translate(${lonScale(lonData[i])},${latScale(latData[j])})`)
+                .append("rect")
+                .attr("width", "4")
+                .attr("height", "4")
+                .attr("fill",d3.interpolateViridis(tempScale(temperature[j][i])))
+        }}})
+
+
+
+
+
+
+    //glyphGen(base,x=150,y=150,dimension=20,rotation=0,color="steelblue",glyphLen=5)
+</script>
+
+
+</body>
+</html>
