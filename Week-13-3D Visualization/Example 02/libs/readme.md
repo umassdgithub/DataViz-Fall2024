@@ -33,5 +33,6 @@ This project demonstrates the creation of a simple 3D scene using the Three.js l
     - OrbitControls script from Three.js examples.
 
 ## How to Use
-
-Check Example 02 for the detailed use case. 
+1. Download the necessary scripts (`three.min.js` and `OrbitControls.js`) and place them in the `libs` directory.
+2. Open the `index.html` file in a modern web browser.
+3. Interact with the 3D scene using the mouse to rotate and zoom.

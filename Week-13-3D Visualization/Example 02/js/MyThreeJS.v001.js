@@ -9,11 +9,13 @@ function myThreeJSV001()
     renderer.setClearColor(spaceColor);
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
+
     window.addEventListener('resize', function () {
         renderer.setSize(window.innerWidth, window.innerHeight);
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
     });
+
     var controls = new THREE.OrbitControls( camera, renderer.domElement );
     controls.enableZoom = true;
     return [scene,camera,renderer,controls]
