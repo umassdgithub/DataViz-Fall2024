@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+}
+svg {
+    width: 512px;
+    height: 512px;
+    border: solid 1px black;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#canvas {
+    height: 100vh;
+}
+.main {
+    display: flex;
+}
+#files {
+    height: 500px;
+    font-size: 1.2em; /* Adjust the font size as needed */
+    margin: 10px; /* Add margin as needed */
+}
+/* Loading Spinner Styles */
+#loading {
+    display: none;
+    font-size: 1.5em;
+    color: #333; /* Dark color for visibility */
+    margin-bottom: 20px;
+}
+.spinner {
+    border: 8px solid #f3f3f3; /* Light gray */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto; /* Center the spinner */
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.slider {
+    margin: 10px;
+    width: 300px;
+}
+
+/* Slider styles */
+input[type="range"] {
+    -webkit-appearance: none; /* Override default CSS styles */
+    width: 100%; /* Full width */
+    height: 8px; /* Height of the slider track */
+    border-radius: 5px; /* Rounded track */
+    background: #ddd; /* Track color */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Slightly transparent */
+    transition: opacity .2s; /* Transition for hover effect */
+}
+
+input[type="range"]:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default thumb styles */
+    appearance: none; /* Override default thumb styles */
+    width: 20px; /* Width of the thumb */
+    height: 20px; /* Height of the thumb */
+    border-radius: 50%; /* Rounded thumb */
+    background: #3498db; /* Thumb color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px; /* Width of the thumb */
+    height: 20px; /* Height of the thumb */
+    border-radius: 50%; /* Rounded thumb */
+    background: #3498db; /* Thumb color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for the noUiSlider handle */
+.noUi-handle {
+    background: #3498db; /* Same color as the threshold thumb */
+    border-radius: 50%; /* Rounded handle */
+    width: 20px; /* Width of the handle */
+    height: 20px; /* Height of the handle */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for the noUiSlider connect element */
+.noUi-connect {
+    background: #3498db; /* Same color for the connected part */
+}
